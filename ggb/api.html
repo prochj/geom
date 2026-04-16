@@ -1,0 +1,18 @@
+<div id="ggb-element"></div>
+<script src="deployggb.js"></script>
+<script>
+    var params = {
+        "filename": "uhel.ggb",
+        "width": 800,
+        "height": 600,
+        "showToolBar": false,
+        "showMenuBar": false,
+        "showAlgebraInput": false,
+        "showAlgebraView": false,
+        "enableRightClick": false
+    };
+    var applet = new GGBApplet(params, true);
+    window.addEventListener("load", function () {
+        applet.inject('ggb-element');
+    });
+</script>
