@@ -1,0 +1,6 @@
+BODY {background:#FFFFF0 }
+A {text-decoration:none; color:#000000; font-weight:bold}
+A:link ,A:visited { text-decoration: none;}
+A:hover { text-decoration: underline; color:#C80020}
+.ods{margin-left:16px}
+.ruka {cursor:hand}

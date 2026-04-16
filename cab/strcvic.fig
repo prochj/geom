@@ -1,0 +1,104 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.2225 y: -1.32291666666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"S", NP: 15, 67, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Val: 0.396875 -1.666875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -276 -80 0, nA, nP, TP: -7.3025, 2.11666666666667,TS: 0.291041666666667, -0.47625
+"S"
+p: 0, System, S: 13 C: 3 Fa: 0
+
+5: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -261 -80 0, nA, nP, TP: -6.905625, 2.11666666666667,TS: 3.413125, -0.47625
+"- støed soumìrnosti"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.01083333333333 -2.27541666666667
+
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.370416666666667 -2.27541666666667
+
+8: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.370416666666667 -3.38666666666667
+
+9: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.03729166666667 -3.38666666666667
+
+10: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.67770833333333 -5.02708333333333
+
+"VZOR", NP: -153, 2, NS: 39, 18
+11: Pt, 0, CN:0, VN:1
+Gr, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.67770833333333 -0.608541666666667
+p: 0, System, S: 0 C: 13 Fa: 0
+
+12: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -253 -161 0, nA, nP, TP: -6.69395833333333, 4.25979166666667,TS: 2.59291666666667, -1.79916666666667
+"Cvièení:
+"
+p: 0, Times New Roman, S: 29 C: 5 Fa: 60928
+
+13: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 10 11 6 7 8 9
+
+14: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 10 3
+
+"OBRAZ", NP: 139, 105, NS: 49, 18
+15: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 3
+p: 0, System, S: 0 C: 12 Fa: 0
+
+16: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 3
+
+17: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 3
+
+18: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 3
+
+19: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 3
+
+20: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 15 16 17 18 19
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -277 -115 0, nA, nP, TP: -7.32895833333333, 3.04270833333333,TS: 13.3879166666667, -0.899583333333333
+"Nastavte šestiúhelník na obrázku tak, aby byl støedovì soumìrným útvarem. 
+Pohybovat mùžete všemi vrcholy vzoru i celým vzorem"
+p: 0, System, S: 0 C: 15 Fa: 0
+

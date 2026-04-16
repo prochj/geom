@@ -1,0 +1,96 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -6.77333333333333 y: 4.86833333333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"V", NP: -293, -165, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -7.699375 4.445
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 4.33916666666667 2.8199664825479E-016
+
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: -4.74672401912276 4.445
+
+6: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 5
+
+7: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4 6 5
+
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6, Val: -7.39223156091669 7.38163254812436
+
+9: Arc, 0, CN:3, VN:5
+R, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 8 7
+
+10: Pt/, 0, CN:1, VN:3
+G, W, t, DS:1 1, GT:2, V, nSt
+Const: 9, Val: -5.53569157816915 6.45413460598579
+
+11: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 10
+
+12: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 5 3 10, Val: 1, 2.3
+
+13: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11, Val: -10.1403167927069 2.17841119248643
+
+14: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 7 3 13, Val: 1, 2.2
+
+15: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 12, Val: -227 -189 0.748378, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+16: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 12 15, Val: -227 -189 1, A, nP, TP: -6.00604166666667, 5.000625,TS: 1.349375, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+17: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 14, Val: -381 -161 0.748378, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+18: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 14 17, Val: -381 -161 0, A, nP, TP: -10.080625, 4.25979166666667,TS: 1.349375, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+19: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -444 -278 0, nA, nP, TP: -11.7475, 7.35541666666667,TS: 6.00604166666667, -0.899583333333333
+"Uchopením za zelený bod mùžete mìnit velikost vrcholových úhlù"
+p: 0, System, S: 13 C: 15 Fa: 60929
+
+20: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -344 -342 0, nA, nP, TP: -9.10166666666667, 9.04875,TS: 4.55083333333333, -0.873125
+"Vrcholové úhly"
+p: 0, Times New Roman, S: 27 C: 5 Fa: 60992
+

@@ -1,0 +1,87 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"S", NP: 5, -15, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, I, nSt
+Val: 0.105833333333333 0.47625
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: -48, -118, NS: 10, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.846666666666667 2.67229166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: -103, 8, NS: 12, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.460625 -0.132291666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: -26, 75, NS: 11, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.47625 -1.825625
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A´", NP: 44, 65, NS: 15, 18
+7: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 3
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B´", NP: 107, -39, NS: 17, 18
+8: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 3
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C´", NP: 28, -123, NS: 16, 18
+9: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 3
+p: 0, System, S: 0 C: 3 Fa: 0
+
+10: Pol, 0, CN:6, VN:0
+V, Bl, t, DS:1 1, GT:1, V, nSt
+Const: 4 5 6 7 8 9
+
+11: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 7
+
+"S", NP: 4, -17, NS: 11, 18
+12: Mid, 0, CN:1, VN:1
+Y, W, t, DS:1 1, GT:2, V, nSt
+Const: 11
+p: 0, System, S: 0 C: 1 Fa: 0
+
+13: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -343 -199 0, nA, nP, TP: -9.07520833333333, 5.26520833333333,TS: 7.51416666666667, -0.926041666666667
+"Støedovì soumìrný útvar"
+p: 0, Times New Roman, S: 29 C: 5 Fa: 60928
+
+14: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -340 -148 0, nA, nP, TP: -8.99583333333333, 3.91583333333333,TS: 6.270625, -1.32291666666667
+"Pohybujte body A,B,C a pokuste se vytvoøit co nejzajímavìjší støedovì soumìrný útvar."
+p: 0, System, S: 0 C: 15 Fa: 0
+
+15: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 104 -162 0, nA, nP, TP: 2.75166666666667, 4.28625,TS: 5.21229166666667, -1.74625
+"Pokuste se vytvoøit støedovì soumìrný obdélník, ètverec a trojúhelník. 
+Podaøili se vám všechny ?"
+p: 0, System, S: 0 C: 15 Fa: 0
+

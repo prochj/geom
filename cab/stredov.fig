@@ -1,0 +1,217 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.2225 y: -1.32291666666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"S", NP: 88, 78, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Val: 2.32833333333333 -1.95791666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -276 -81 0, nA, nP, TP: -7.3025, 2.143125,TS: 0.291041666666667, -0.47625
+"S"
+p: 0, System, S: 13 C: 3 Fa: 0
+
+5: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -262 -81 0, nA, nP, TP: -6.93208333333333, 2.143125,TS: 3.413125, -0.47625
+"- støed soumìrnosti"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -1.190625 0.264583333333333
+
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -1.190625 -0.185208333333333
+
+8: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.132291666666667 -0.185208333333333
+
+9: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.132291666666667 -0.846666666666667
+
+10: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.67770833333333 -0.846666666666667
+
+"VZOR", NP: -111, -31, NS: 39, 18
+11: Pt, 0, CN:0, VN:1
+Gr, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.56645833333333 0.264583333333333
+p: 0, System, S: 0 C: 13 Fa: 0
+
+"VZOR", NP: -121, 78, NS: 39, 18
+12: Pt, 0, CN:0, VN:1
+Gr, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.69875 -1.45520833333333
+p: 0, System, S: 0 C: 13 Fa: 0
+
+13: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 12, Val: 0.594577092060212
+
+14: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 1.031875 -0.79375
+
+15: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 1.69333333333333 -0.502708333333333
+
+16: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0.926041666666667 -0.211666666666667
+
+17: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0.714375 -0.343958333333333
+
+"VZOR", NP: 80, -27, NS: 39, 18
+18: Pt, 0, CN:0, VN:1
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Val: 2.09020833333333 0.211666666666667
+p: 0, System, S: 0 C: 13 Fa: 0
+
+19: Con, 1, CN:5, VN:6
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 15 16 17 18
+
+"VZOR", NP: -36, 79, NS: 39, 18
+20: Pt, 0, CN:0, VN:1
+Gr, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.47625 -1.45520833333333
+p: 0, System, S: 0 C: 13 Fa: 0
+
+21: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 20, Val: 0.610838058474221
+
+"OBRAZ", NP: 174, 115, NS: 49, 18
+22: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 3
+p: 0, System, S: 0 C: 12 Fa: 0
+
+23: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 21, Val: 0.134588058474221 -1.45520833333333
+
+24: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 23 3
+
+25: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 24
+
+"OBRAZ", NP: 257, 115, NS: 49, 18
+26: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, V, nSt
+Const: 12 3
+p: 0, System, S: 0 C: 12 Fa: 0
+
+27: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 13, Val: -2.10417290793979 -1.45520833333333
+
+28: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 27 3
+
+29: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 26 28
+
+30: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 14 3
+
+31: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 15 3
+
+32: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 16 3
+
+33: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 17 3
+
+"OBRAZ", NP: 90, 156, NS: 49, 18
+34: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 18 3
+p: 0, System, S: 0 C: 12 Fa: 0
+
+35: Con, 1, CN:5, VN:6
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 30 31 32 33 34
+
+36: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -254 -163 0, nA, nP, TP: -6.72041666666667, 4.31270833333333,TS: 6.32354166666667, -0.926041666666667
+"Støedová soumìrnost"
+p: 0, Times New Roman, S: 29 C: 5 Fa: 60928
+
+37: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 10 11 6 7 8 9
+
+38: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 3
+
+"OBRAZ", NP: 243, 160, NS: 49, 18
+39: Sym, 0, CN:2, VN:1
+lGr, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 3
+p: 0, System, S: 0 C: 12 Fa: 0
+
+40: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 3
+
+41: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 3
+
+42: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 3
+
+43: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 3
+
+44: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 39 40 41 42 43
+
+45: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -274 -116 0, nA, nP, TP: -7.24958333333333, 3.06916666666667,TS: 8.09625, -0.899583333333333
+"Na obrázku jsou ètyøi vzory a jejich obrazy ve støedové soumìrnosti se støedem S. "
+p: 0, System, S: 0 C: 15 Fa: 0
+
+46: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 78 -150 0, nA, nP, TP: 2.06375, 3.96875,TS: 8.38729166666667, -1.74625
+"Pohybovat lze všemi vzory, které mùžete rùznì pøetváøet a modifikovat. 
+Sledujte zároveò, jak se støedová soumìrnost chová a naleznìte její samodružné body."
+p: 0, System, S: 0 C: 15 Fa: 0
+

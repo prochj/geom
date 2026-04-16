@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" CONTENT="HTML Editor">
+    <META NAME="DESCRIPTION" CONTENT="Lekce 2">
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1250">
+<TITLE>Trojúhelník</TITLE>
+</HEAD>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<SCRIPT language="JavaScript">
+var soubor="trojuhl.htm"
+</SCRIPT>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<BODY  BGCOLOR="#FFFFF0">
+
+<MAP NAME="vnitvnej">
+<AREA ALT="uvnitr" SHAPE="poly" COORDS="101,42,263,123,43,123" HREF="#znac" ONMOUSEMOVE="window.status='Vnitřní oblast trojúhelníku'; return true;" ONMOUSEOUT="window.status='Vnější oblast trojúhelníku'; return true;" ONMOUSEOVER="window.status='Vnitřní oblast trojúhelníku'; return true;" >
+<AREA ALT="cabri" SHAPE="poly" COORDS="0,31,36,31,36,0,0,0" HREF="../cab/vnitvnej.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status='Vnější oblast trojúhelníku'; return true;">
+</MAP>
+
+<MAP NAME="tez">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/teziste.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="osaus">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/osaus.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="vys">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/vysky.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="ops">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/opsan.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="vps">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/vepsan.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="sou">
+<AREA ALT="Cabri II" SHAPE="rect" COORDS="0,0,33,31" HREF="../cab/soucvut.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+</MAP>
+
+<MAP NAME="otp">
+<AREA ALT="ostro" SHAPE="poly" COORDS="53,54,119,120,20,120" HREF="#otp" ONMOUSEMOVE="window.status='Všechny vnitřní úhly ostré'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Všechny vnitřní úhly ostré'; return true;">
+<AREA ALT="tupo" SHAPE="poly" COORDS="164,40,308,120,203,120" HREF="#otp" ONMOUSEMOVE="window.status='Jeden vnitřní úhel tupý'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Jeden vnitřní úhel tupý'; return true;">
+<AREA ALT="pravo" SHAPE="poly" COORDS="354,41,458,120,354,120" HREF="#otp" ONMOUSEMOVE="window.status='Jeden vnitřní úhel pravý'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Jeden vnitřní úhel pravý'; return true;">
+</MAP>
+
+
+<MAP NAME="ors">
+<AREA ALT="cab1" SHAPE="rect" COORDS="16,45,49,75" HREF="../cab/obec.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+<AREA ALT="cab2" SHAPE="rect" COORDS="181,41,217,72" HREF="../cab/rovnostr.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+<AREA ALT="cab3" SHAPE="rect" COORDS="346,41,382,72" HREF="../cab/rovnoram.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status=''; return true">
+<AREA ALT="obec" SHAPE="poly" NOHREF COORDS="60,120,141,185,19,185" HREF="" ONMOUSEMOVE="window.status='Obecný trojúhelník'; return true" ONMOUSEOUT="window.status=''; return true" ONMOUSEOVER="window.status='Obecný trojúhelník'; return true">
+<AREA ALT="rstran" SHAPE="poly" NOHREF COORDS="249,110,292,185,205,185" HREF="" ONMOUSEMOVE="window.status='Rovnostranný trojúhelník'; return true" ONMOUSEOUT="window.status=''; return true" ONMOUSEOVER="window.status='Rovnostranný trojúhelník'; return true">
+<AREA ALT="rram" SHAPE="poly" NOHREF COORDS="424,71,474,204,373,204" HREF="" ONMOUSEMOVE="window.status='Rovnoramenný trojúhelník'; return true" ONMOUSEOUT="window.status=''; return true" ONMOUSEOVER="window.status='Rovnoramenný trojúhelník'; return true">
+</MAP>
+
+<A NAME="obs">
+<U><h1 align="center">Trojúhelník</h1></U>
+<H2>Obsah :</H2>
+<UL class="obsah">
+<LI> <A HREF="#znac">Značení trojúhelníků</A></LI>
+<LI><A HREF="#roz">Rozdělení trojúhelníků</A></LI>
+<UL>
+<LI><A HREF="#str">podle stran</A>
+<LI><A HREF="#uhl">podle úhlů</A>
+</UL>
+<LI> <A HREF="#konstr">Konstrukce trojúhelníku</A></LI>
+<UL>
+<LI><A HREF="sss.htm">podle věty sss</A>
+<LI><A HREF="sus.htm">podle věty sus</A>
+<LI><A HREF="usu.htm">podle věty usu</A>
+</UL>
+<LI> <A HREF="#vyska">Výšky trojúhelníku</A></LI> 
+<LI> <A HREF="#tez">Těžnice trojúhelníku</A></LI> 
+<LI> <A HREF="#ops">Kružnice opsaná</A></LI>
+<LI> <A HREF="#veps">Kružnice vepsaná</A></LI>
+</UL>
+<HR WIDTH=90% ALIGN=center><BR>
+<A NAME="znac">
+<H2>Značení trojúhelníků</H2>
+<CENTER><IMG SRC="../gif/troj11.gif" BORDER=0 VSPACE=20 HSPACE=20 USEMAP="#vnitvnej"></CENTER>
+Trojúhelníky značíme symbolem <IMG SRC="../gif/trojzn.gif">, čili například trojúhelník ABC zkráceně zapíšeme jako <IMG SRC="../gif/trojzn.gif">ABC. Vrcholy trojúhelníků označujeme velkými tiskacími písmeny, strany malými tiskacími písmeny a úhly věšinou malými písmeny <A HREF="greek.htm">řecké abecedy</A>.<BR>Každý trojúhelník má <B><FONT COLOR="#0000FF">tři vnitřní úhly</FONT></B> a <B><FONT COLOR="#009933">šest úhlů vnějších</FONT></B>, které jsou vlastně <A HREF="uhel.htm#vedl">úhly vedlejšími</A> k úhlům vnitřním. <P>
+<A NAME="svu">
+<CENTER><table border="3" cellpadding="5" bordercolor="#A02028" ALIGN="CENTER">
+    <tr>
+        <td class="def">Součet vnitřních úhlů trojúhelníku je <B>úhel přímý</B></td>
+    </tr>
+</table></CENTER>
+<TABLE BORDER=0>
+<TR><TD><IMG SRC="../gif/soucvut.gif" USEMAP="#sou" HSPACE=20 VSPACE=20 BORDER=0 ALIGN="left">
+<TD>
+Toto tvrzení si nejlépe dokážeme na tomto obrázku. Nejprve narýsujeme přímku p, která prochází vrcholem trojúhelníku (C) a je rovnoběžná s jeho protilehlou stranou (AB). Poté sestrojíme <A HREF="uhel.htm#str">střídavé úhly</A> k úhlům přilehlým k této straně (<FONT FACE="Symbol" COLOR="#FF0404">a</FONT>, <FONT FACE="Symbol" COLOR="#009000">b</FONT>). Jak je vidět, grafický součet úhlu <FONT FACE="Symbol" >g</FONT> a střídavých úhlů k úhlům <FONT FACE="Symbol" >a</FONT>, <FONT FACE="Symbol" >b</FONT> tvoří <B>přímý úhel</B> a ten, jak už víme z <A HREF="uhel.htm#klas">předchozí kapitoly</A> má velikost <B>180°</B>.<BR>
+<TR><TD COLSPAN=2>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Zopakujte si jaké znáte <A HREF="uhel.htm#klas">druhy úhlů</A> a zamyslete se nad tím, jaké může mít trojúhelník vnitřní úhly, kolik může mít úhlů nekonvexních, přímých, tupých, pravých, ostrých ...</DIV><P>
+</TABLE>
+
+<A NAME="roz">
+<H2>Rozdělení trojúhelníků</H2>
+<A NAME="str">
+<H3>Podle délek stran</H3>
+Podle délek jednotlivých stran rozdělujeme trojúhelníka na <B>obecné, rovnostranné a rovnoramenné</B>. 
+<CENTER><IMG SRC="../gif/orsrn.gif" USEMAP="#ors" BORDER=0 HSPACE=20 VSPACE=20 ALIGN="bottom"></CENTER>
+<B>Obecný trojúhelník</B> má všechny strany různě dlouhé a všechny úhly různě velké. Platí pro něj tedy pouze obecná pravidla pro trojúhelník jako součet vnitřních úhlů ...<BR>
+<B>Rovnostranný trojúhelník</B> má všechny strany stejně dlouhé a všechny jeho vnitřní úhly jsou 60°.<BR>
+<B>Rovnoramenný trojúhelník</B> má dvě strany tejně dlouhé, ty nazýváme  <B>ramena</B>, a třetí stranu různou, tu nazýváme <B>základna</B>. Zvláštní vlastností rovnoramenného trojúhelníku je, že úhly přilehlé k základně jsou vždy shodné. <BR>
+
+<B><FONT COLOR="#FF0000">Pozor !</FONT></B> I když se základna nejčastěji rýsuje vodorovně, není to v žádném případě pravidlem. Nastavíte-li v <A HREF="../cab/rovnoram.fig">Cabri</A> trojúhelník do jakékoliv polohy, zůstává základnou <B>strana AB</B>.
+<A NAME="uhl">
+<H3>Podle úhlů</H3>
+Podle velikostí vnitřních úhlů můžeme trojúhelníky rozdělit na tři základní typy. Jsou to:
+<CENTER><IMG SRC="../gif/trojotp.gif" USEMAP="#otp" BORDER=0></CENTER>
+<B>Ostroúhlý trojúhelník</B> má všechny vnitřní úhly ostré<BR>
+<B>Tupoúhlý trojúhelník</B> má jeden tupý úhel.<BR>
+<B>Pravoúhlý trojúhelník</B> má jeden pravý vnitřní úhel. Stranám, které tvoří ramena pravého úhlu říkáme <B>odvěsny</B>, strana ležící naproti pravého úhlu se nazývá <B>přepona</B>.<BR>
+<TABLE BORDER=0>
+<CAPTION ALIGN="LEFT">Pomocí předchozích příkladů v Cabri se pokuste zodpovědět následující otázky:</CAPTION>
+<TR><TD WIDTH=50><TD><IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Zopakujte si : proč může mít trojúhelník pouze jeden pravý nebo tupý úhel ?</DIV>
+<TR><TD><TD><IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Může být pravoúhlý trojúhelník zároveň rovnoramenný ?</DIV>
+<TR><TD><TD><IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Může být rovnostranný trojúhelník zároveň pravoúhlý ?</DIV>
+</TABLE>
+<BR>
+<A NAME="konstr">
+<H2>Konstrukce trojúhelníků</H2>
+Při každé konstrukci budeme dodržovat následující schema :<P>
+
+<U><B>1. Rozbor</B></U><BR>
+Rozbor bude vždy obsahovat <B>náčrtek</B>. Zde si nakreslíme od ruky trojúhelník a vyznačíme na něm barevně, co je zadáno. Náčrtek nám pomůže vymyslet, jak postupovat při konstrukci. <BR>
+Druhá část, kterou bude rozbor vždy obsahovat je určení <B>podmínek řešitelnosti </B>úlohy. V této části ověříme, jestli trojúhelník lze podle daných parametrů sestrojit. <P>
+<U><B>2. Zápis konstrukce</B></U><BR>
+Konstrukci zapisujeme postupně, jak ji budeme provádět pomocí <A HREF="matzn.htm">matematických značek</A> a symbolů. Jednotlivé body konstrukce píšeme na zvláštní řádky a označujeme čísly.<P>
+<U><B>3. Konstrukce</B></U><BR>
+Přesně podle pravítka, kružítka, úhloměru a dalších rýsovacích pomůcek  sestrojíme zadaný trojúhelník. <P>
+V této kapitole se seznámíme se třemi typy konstrukcí trojúhelníku:
+<OL>
+<LI>Podle věty <A HREF="sss.htm"><FONT SIZE=5 COLOR="#FF0000">sss</FONT></A>, kdy jsou zadány délky všech stran trojúhelníku
+<LI>Podle věty <A HREF="sus.htm"><FONT SIZE=5 COLOR="#FF0000">sus</FONT></A>, kdy jsou zadány délky dvou stran trjúhelníku a velikost úhlu jimi sevřeného
+<LI>Podle věty <A HREF="usu.htm"><FONT SIZE=5 COLOR="#FF0000">usu</FONT></A>, kde je zadána délka jedné strany trojúhelníku a velikosti obou jí přilehlých úhlů
+</OL>
+Klikněte na název věty, kterou chcete zobrazit.
+<P>
+<BR>
+<A NAME="vyska">
+<H2>Výšky trojúhelníku</H2>
+S pojmem "výška" jste se jistě setkali už mnohokrát v životě. Jistě si dokážete představit, co je výška rozhledny, domu či výška spolužáka. Všiměte si, že výšku vždy měříme kolmo od země až do nejvyššího bodu měřeného objektu. <BR>
+<TABLE BORDER=0>
+<TR><TD><IMG SRC="../gif/vysky.gif" HSPACE=20 VSPACE=20 BORDER=0 ALIGN="left" USEMAP="#vys">
+<TD VALIGN="Top">Stejným způsobem budeme postupovat i u trojúhelníku a povedeme <B><FONT COLOR="#FF0000">kolmici</FONT></B> k jedné straně trojúhelníku až do protilehlého vrcholu. Protože trojúhelník má<B> tři strany i vrcholy</B>, můžeme takto sestrojit <B><FONT COLOR="#008000">tři výšky</FONT></B>. <BR>
+Výšky označujeme malým <B>v</B> s indexem názvu strany ke které příslušná výška patří. Slovem výška  označujeme v trojúhelníku<B> jak úsečku, tak její délku</B>. <BR>
+Průsečík výšek <B><FONT COLOR="#FF0000">O</FONT></B> nazýváme <B>ORTOCENTRUM</B> trojúhelníku. <BR>
+
+</TABLE>
+Dříve než se pustíte do konstrukcí výšek trojúhelníku, sledujte jejich chování na připraveném příkladě v <A HREF="../cab/vysky.fig">Cabri</A> a zodpovězte pomocí pohyblivého obrázku naásledující otázky.<P>
+
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Vyzkoumejte, na čem záleží, zda ortocentrum leží uvnitř, nebo vně trojúhelníku. </DIV><P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Sestavte takový trojúhelník, který má všechny výšky stejně dlouhé. Jak se takovému trojúhelníku říká?</DIV>
+<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Zjistěte, kde má ortocentrum pravoúhlý trojúhelník a jaká pravidla platí pro výšky  u rovnoramenného a rovnostranného trojúhelníku?</DIV><P>
+<BR>
+<A NAME="tez">
+<H2>Těžnice trojúhelníku</H2>
+Pojem těžiště patří spíše do fyziky, kde se zjišťuje jeho poloha experimentálně. Je to vlastně rovnovážný bod tělesa. Rovnoramenné váhy s prázdnými miskami mají těžiště přímo uprostřed ramene. Jakmile  jednu misku zatížíme, posune se těžiště směrem k ní a rameno vah se nahne tím směrem. U trojúhelníku můžeme tento bod narýsovat pomocí tzv. těžnic.
+<TABLE BORDER=0>
+<TR><TD><IMG SRC="../gif/teziste.gif" ALIGN="left" HSPACE=20 VSPACE=20 BORDER=0 USEMAP="#tez">
+<TD VALIGN="Top"><B><FONT COLOR="#008000">Těžnice trojúhelníku</FONT></B> je úsečka spojující vrchol trojúhelníku se středem jeho protilehlé strany. Označíme ji malým  <B>t</B> s indexem názvu strany, ke které náleží. <BR>
+Průsečík těžnic se nazývá <B>těžiště trojúhelníku</B> a označujeme ho <B><FONT COLOR="#FF0000">T</FONT></B>.
+Tento bod dělí těžnice v poměru 2:1 tak, že delší úsek těžnice leží vždy u vrcholu. To znamená, že úsek těžnice od vrcholu do těžiště je vždy 2/3 celkové délky těžnice.
+</TABLE>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Nachází se těžiště vždy uvnitř trojúhelníku? </DIV>
+<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Jaké pravidlo platí pro těžnice a těžiště u rovnoramenného a rovnostranného trojúhelníku?<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left">Odvoďte, kde se nachází těžiště u kružnice, čtverce, kosočtverce, obdelníka a dalších geometrických tvarů. </DIV><P>
+<BR>
+<A NAME="ops">
+<H2>Kružnice opsaná trojúhelníku</H2>
+Kružnice opsaná trojúhelníku je kružnice, která prochází všemi třemi vrcholy trojúhelníku. Než se pustíme do hledání této kružnice, pokusíme se najít alespoň některé kružnice procházející <B>dvěma body</B>. <BR>
+<IMG SRC="../gif/osaus.gif" ALIGN="right" USEMAP="#osaus" BORDER=0 HSPACE=20 VSPACE=20>Jedním bodem, který splňuje požadavky na střed kružnice procházející dvěma body je střed úsečky těmito body ohaničené. Ten sestrojíme snadno. Z obrázku je vidět, že další takové body leží na přímce, která je kolmá k úsečce AB a vede jejím středem. Této přímce říkáme <B>osa úsečky</B> AB. Na ní lěží všechny středy kružnic procházejících zároveň bodem A i B. Osu úsečky znašíme obvykle malým <B>o</B>.<BR>
+<IMG SRC="../gif/opsan.gif" ALIGN="left" HSPACE=20 VSPACE=20 BORDER=0 USEMAP="#ops">
+Nyní když už víme, jak sestrojit množinu všech středů kružnic procházejících dvěma body, nebude těžké sestrojit střed kružnice procházející zároveň <B>třemi body</B>. Vezmeme libovolné dvě strany trojúhelníku a sestrojíme jejich osy podle předešlého návodu. Tam, kde se tyto osy protnou by měl ležet střed kružnice opsané trojúhelníku <B><FONT COLOR="#FF0000">S</FONT></B>. V Cabri se můžete přesvědčit, že i osa třetí strany trojúhelníku prochází vždy tímto průsečíkem. <P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Konstrukci si proveďte do sešitu nebo na papír. Tady se ukáže, kdo umí přesně rýsovat.</DIV><P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Bude ležet střed kružnice opsané <B><FONT COLOR="#FF0000">S</FONT></B> vždy uvnitř trojúhelníku, tak jak je to znázorněno na obrázku? Použijte příkladu v 
+<A HREF="../cab/opsan.fig">Cabri</A>.</DIV><P>
+
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Kde leží střed kružnice opsané u pravoúhlých trojúhelníků? </DIV>
+<A NAME="veps">
+<H2>Kružnice vepsaná trojúhelníku</H2>
+Kružnice vepsaná je taková kružnice, která se zevnitř dotýká všech tří stran trojúhelníku. Než ji začneme konstruovat, podíváme se nejprve, jak sestrojit střed kružnice, která se dotýká dvou různoběžek. Zopakujte si, co víte o <A HREF="uhel.htm#osa">ose úhlu</A>.
+<TABLE BORDER=0>
+<TR><TD><IMG SRC="../gif/veps.gif" ALIGN="left" HSPACE=20 VSPACE=20 BORDER=0 USEMAP="#vps">
+<TD VALIGN="Top">Pokud jste si připoměli, jistě už víte, že osa úhlu je přímka, jejíž každý bod má stejnou kolmou vzdálenost od obou ramen úhlu. To znamená, že sestrojíme-li kružnici se středem na ose úhlu, která se dotýká jednoho ramene úhlu, bude se dotýkat i ramene druhého. <BR>
+Sestrojte tedy v trojúhelníku <B>osy všech tří úhlů</B> a jestliže jste přesně rýsovali, protli se v jednom bodě uvnitř trojúhelníku. Bod označte <B><FONT COLOR="#FF0000">S</FONT></B> a sestrojte kružnici se středem S dotýkající se libovolné strany. Při přesném rýsování se dotkne i zbylých dvou stran. Této kružnici říkáme <B>kružnice vepsaná</B> trojúhelníku.
+</TABLE>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Může se u nějakého trojúhelníku nacházet střed kružnice vepsané vně trojúhelníku?</DIV><P>
+<IMG SRC="../gif/ot.gif" ALIGN="left"><DIV class="ot">Na čem závisí poloměr kružnice vepsané <FONT FACE="Symbol"><B>r</B></FONT>?
+</BODY>
+</HTML>

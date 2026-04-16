@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1250">
+<TITLE>Help</TITLE>
+<LINK rel=stylesheet href=listy.css type="text/css">
+<SCRIPT language="JavaScript">
+function obsah() {
+var loc
+loc = top.frames.main.document.location.href
+delka = loc.length
+od = loc.lastIndexOf("/")
+kam = loc.lastIndexOf("#")
+if (kam==-1) strih = loc.substring(od+1,delka)
+else strih = loc.substring(od+1,kam)
+
+if (strih.indexOf("ot")!=-1 && strih!='othelp.htm' || strih=='start.htm' || strih=='vysledek.htm' || strih=='uvod.htm' ) alert('Nejste uvnitř žádné kapitoly !!')
+else {
+var soub=top.frames[2].soubor
+top.frames[2].document.location=soub+'#obs'
+}
+}
+
+
+function cil() {
+var loc
+loc = top.frames.main.document.location.href
+delka = loc.length
+od = loc.lastIndexOf("/")
+kam = loc.lastIndexOf("#")
+if (kam==-1) strih = loc.substring(od+1,delka)
+else strih = loc.substring(od+1,kam)
+
+if (strih.indexOf("ot")!=-1 || strih=='start.htm' || strih=='vysledek.htm') open("othelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=540, height=400,scrollbars=no, resizable=yes" );
+else{
+if (strih.indexOf("cvic")!=-1) open("cvichelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=550, height=450,scrollbars=yes, resizable=yes" );
+else {
+if (strih=='prevody.htm' || strih=='operace.htm') open("pochelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=500, height=400,scrollbars=yes, resizable=yes" );
+else {
+if (strih=='uvod.htm') top.frames.main.document.location.href="helpikie.htm"
+else {
+if (strih.indexOf("test")!=-1)open( "tehelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=550, height=450, scrollbars=yes, resizable=yes" );
+else  open("ovlhelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=640, height=480,scrollbars=yes, resizable=yes" );
+}
+}
+}
+}
+}
+
+</SCRIPT>
+</HEAD>
+<BODY  BGCOLOR="#FFFFF0" >
+<CENTER><TABLE BORDER=0>
+<TR><TD WIDTH=100 NOWRAP ALIGN="Left" VALIGN="Middle">
+<IMG SRC="../gif/zpet.gif" ONMOUSEMOVE="document.images[0].src='../gif/zpet1.gif'" onMouseOut="document.images[0].src='../gif/zpet.gif'" onClick="history.back()" WIDTH=34 HEIGHT=37 >
+<TD ALIGN="Center" VALIGN="Middle" NOWRAP WIDTH=100><A HREF="#" ONCLICK="cil()" >Nápověda</A>
+<TD ALIGN="Center" VALIGN="Middle" NOWRAP WIDTH=100>
+<A HREF="#proa"  ONCLICK="obsah()" >Obsah</A>
+<TD ALIGN="Center" VALIGN="Middle" WIDTH=100><A HREF="geometr.zip">Download</A>
+<TD ALIGN="Right" VALIGN="Middle" WIDTH=100>
+<IMG SRC="../gif/vpred.gif" ONMOUSEMOVE="document.images[1].src='../gif/vpred1.gif'" onMouseOut="document.images[1].src='../gif/vpred.gif'" onClick="history.forward() "WIDTH=36 HEIGHT=37>
+</TABLE>
+</CENTER></BODY>
+</HTML>

@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" CONTENT="HTML Editor">
+    <META NAME="DESCRIPTION" CONTENT="Lekce 2">
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1250">
+<TITLE>Konstrukce trojúhelníku podle věty sss</TITLE>
+</HEAD>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<SCRIPT language="JavaScript">
+var soubor="trojuhl.htm", krok=0
+
+function ksss() {
+if (krok>6) krok=0
+nazev='../gif/sss'+krok+'.gif'
+document.images.sss.src=nazev
+krok++
+}
+
+function spust(){
+video='../gif/sss.gif'
+document.images['sss'].src=video
+}
+
+</SCRIPT>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<BODY  BGCOLOR="#FFFFF0" >
+<CENTER><H2>Konstrukce trojúhelníku podle věty <FONT COLOR="#FF0000">sss</FONT></H2><BR></CENTER>
+
+<TABLE BORDER=0>
+<TR><TD COLSPAN=2><B><U>Zadání :</U></B>
+<TR><TD VALIGN="Top" NOWRAP WIDTH=300>Sestrojte trojúhelník ABC, jestliže jeho strana<TD> a = 4cm<BR> b = 3cm<BR> c = 5cm
+</TABLE> 
+
+<B><U>1. Rozbor</U></B><P>
+<B>Náčrtek</B><BR>
+Zadané prvky označíme červeně
+<CENTER><IMG SRC="../gif/nacrtsss.gif"></CENTER>
+<A NAME="tn">
+<B>Podmínky řešitelnosti</B><BR>
+Aby bylo možno trojúhelník ABC sestrojit, musí platit tzv. <B>trojúhelníková nerovnost</B>.<P>
+<CENTER><table border="3" cellpadding="5" bordercolor="#A02028">
+    <tr>
+        <td class="def">V každém trojúhelníku je součet délek libovolných dvou stran větší než délka třetí strany.</td>
+    </tr>
+</table></CENTER>
+<P>
+<TABLE BORDER=0 CELLSPACING=5>
+<TR><TD VALIGN="Top">Platí tedy tři nerovnosti : <TD> a + b > c <BR> a + c > b <BR> b + c > a <TD VALIGN="Top">Pro náš <IMG SRC="../gif/trojzn.gif">ABC : <TD> 4 + 3 > 5 <BR> 4 + 5 > 3 <BR> 3 + 5 > 4 
+</TABLE>
+Trojúhelník ABC všechny tyto nerovnosti <B>splňuje</B>, lze jej tedy sestrojit.<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left">Musíme vždy ověřovat všechny tři nerovnosti? Pomůže vám náčrtek v <A HREF="../cab/tner.fig" ONMOUSEMOVE="window.status='Zobrazit konstrukci v Cabri II'" ONMOUSEOUT="window.status=''">Cabri</A>.<P>
+<A NAME="sem">
+<TABLE BORDER=0 CELLSPACING=10>
+<TR><TH ALIGN="Left"><U>2. Zápis konstrukce</U><TH COLSPAN=2 ALIGN="Left"><U>3. Konstrukce</U>
+<TR><TD VALIGN="Top"><IMG SRC="../gif/zksss.gif"><TD><IMG SRC="../gif/sss000.gif" NAME="sss" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#sem" ONCLICK="spust()" ONMOUSEMOVE="window.status='Spustit konstrukci sss'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Spustit konstrukci sss'; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#sem" ONCLICK="ksss()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Krokovat'; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+<IMG SRC="../gif/ot.gif" ALIGN="left">Má tato úloha jediné řešení? Prohlédněte si pečlivě příklad v <A HREF="../cab/tner.fig" ONMOUSEMOVE="window.status='Zobrazit konstrukci v Cabri II'" ONMOUSEOUT="window.status=''" >Cabri</A> a pokuste se odpovědět.
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,94 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.2225 y: -1.32291666666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.07458333333333 -0.529166666666667
+
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.54 -3.94229166666667
+
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.54 0.846666666666667
+
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.86291666666667 2.16958333333333
+
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.45041666666667 0.582083333333333
+
+8: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.45041666666667 -1.905
+
+9: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5 6 7 8
+
+10: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -2.24895833333333 2.96333333333333
+
+11: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:0, I, nSt
+Val: 3.4925 2.96333333333333
+
+12: Vec, 0, CN:2, VN:0
+P, W, t, DS:1 1, GT:0, I, nSt
+Const: 10 11
+
+13: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 3 12
+
+14: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 12
+
+15: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 12
+
+16: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+
+17: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 12
+
+18: Tran, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 12
+
+19: Pol, 0, CN:6, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 14 15 16 17 18
+
+20: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -101 -153 0, nA, nP, TP: -2.67229166666667, 4.048125,TS: 3.730625, -0.767291666666667
+"Shodné útvary"
+p: 0, Times New Roman, S: 24 C: 5 Fa: 60992
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 163 -94 0, nA, nP, TP: 4.31270833333333, 2.48708333333333,TS: 5.02708333333333, -2.59291666666667
+"Tyto dva mnohoúhelníky zústanou shodné i když tvar levého jakkoliv zmìníte.
+
+Pøesvìète se prùsvitkovou metodou"
+p: 0, System, S: 0 C: 15 Fa: 0
+

@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<META  CONTENT="text/html; charset=windows-1250">
+<TITLE>Převody jednotek</TITLE>
+</HEAD>
+<link rel="stylesheet" href="vyklad.css" type="text/css">
+<SCRIPT language ="JavaScript" SRC="../js/t1.js">
+<SCRIPT language="JavaScript">
+var soubor="uhel.htm"
+</SCRIPT>
+</SCRIPT>
+<BODY  BGCOLOR=#FFFFF0>
+<CENTER><H1>Převody jednotek</H1></CENTER><P>
+<H3>Ze stupňů na minuty</H3>
+Při převodu velikosti úhlu na minuty musíme vědět, že 1<SUP>o</SUP> = 60'. Vynásobíme tedy stupně šedesáti a 
+zbylé minuty k nim přičteme.<BR>
+<B><U>Př</U></B> Převeďte 21<SUP>o</SUP> 15' na minuty.<BR>
+<P ALIGN="CENTER" class="vypocet">21<SUP>o</SUP> 15' = 21<SUP>o</SUP> . 60 + 15' = 1 260' + 15' = 1 275'</P>
+<H3>Z minut na stupně</H3>
+Při převodu velikosti úhlu z minut na stupně a minuty postupujeme přesně naopak než v předchozím příkladě.<BR>
+
+<B><U>Př</U></B> Zapište úhel o velikosti 2421' ve stupních.<P>
+Vydělíme počet minut šedesáti a dostaneme hodnotu ve stupních:<BR>
+<P class="vypocet" ALIGN="CENTER">2421<SUP>o</SUP> : 60 = 40,35<SUP>o</SUP></P>
+Potřebujeme-li výsledek  ve stupních a minutách, musíme ještě <A HREF="#pp">převést desetinné číslo</A>, a nebo hledat nejbližšího nižšího dělitele šedesáti. 
+Tím je v našem případě číslo 2400.<BR>
+<P class="vypocet" ALIGN="CENTER">2421' = 2400' + 21' = 2400 <B>:</B> 60 <SUP>o</SUP> + 21' = 40<SUP>o</SUP> 21'</P>
+
+
+
+
+<H3>Vyjádření úhlu desetinným číslem</H3>
+Stačí si připomenout, že 1<SUP>o</SUP> = 3600&quot;. To znamená že počet vteřin musíme tímto číslem vydělit.<BR>
+
+<B><U>Př:</U></B>Vyjádřete velikost úhlu  12<SUP>o</SUP> 15' 18" desetinným číslem ve stupních.
+<P ALIGN="CENTER" class="vypocet">12<SUP>o</SUP> 15' 18" = 12<SUP>o</SUP> + 15<SUP>o</SUP><B>:</B> 60 +18<SUP>o</SUP> <B>:</B> 3 600 = 12<SUP>o</SUP> + 0,25<SUP>o</SUP> + 0,005<SUP>o</SUP> = 12,255<SUP>o</SUP> </P>
+
+<A NAME="pp"></A>
+<H3>Z desetinného čísla na stupně</H3>
+Opačný postup je poněkud složitější, avšak budeme jej jistě potřebovat, protože, jak jste si jistě všimli, program Cabri 
+udává naměřené velikosti úhlů v desetinném tvaru. Zkusme tedy převést např. 42,41<SUP>o</SUP> na stupně, minuty a vteřiny :
+
+<CENTER><TABLE BORDER=0>
+<TR><TD>1. Oddělíme celé stupně<TD class="vypocet" ALIGN="Right">42,41<SUP>o</SUP> = 42<SUP>o</SUP> + 0,41<SUP>o</SUP>
+<TR><TD>2. Desetinnou část vynásobíme 60ti<TD class="vypocet" ALIGN="Right">0,41<SUP>o</SUP>.60= 24,6'
+<TR><TD>3. Opět oddělíme celou část a zapíšeme jako minuty<TD class="vypocet" ALIGN="Right">42<SUP>o</SUP> 24' + 0,6'
+<TR><TD>4. Vynásobíme desetinnou část minut <TD class="vypocet" ALIGN="Right">0,6'.60 = 10"
+<TR><TD>5. Zapíšeme výsledek.<TD class="vypocet" ALIGN="Right">42,41<SUP>o</SUP> = 42<SUP>o</SUP> 24' 10"
+</TABLE>
+</CENTER><P><HR>
+<A NAME="cvic1">
+
+<FORM METHOD="GET" name="F">
+<IMG SRC="../gif/cvic.gif" WIDTH=109 HEIGHT=41>
+<P>
+<OL>
+<B><LI>Převeďte na minuty</B>
+<TABLE BORDER=0 CELLSPACING=20>
+
+<TR><TD>a) 2<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="a1" SIZE=3>'
+<TD>b) 10,1<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="b1" SIZE=3>'
+
+<TR><TD>c) 0,5<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="c1" SIZE=3>'
+<TD>d) 5<SUP>o</SUP> 20' = <TD><INPUT TYPE="TEXT" NAME="d1" SIZE=3>'
+<TR><TD COLSPAN=4 ALIGN="Center"><INPUT TYPE="BUTTON" NAME="T1" VALUE="Hotovo" ONCLICK="hotovo1('pr',0)" >
+</FORM>
+</TABLE>
+<P>
+<FORM METHOD="GET">
+<B><LI>Převeďte na stupně a minuty</B>
+<TABLE BORDER=0 CELLSPACING=20>
+<TR><TD>a) 100'  = <TD><INPUT TYPE="TEXT" NAME="as2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="am2" SIZE=3>'
+<TD>b) 360'  = <TD><INPUT TYPE="TEXT" NAME="bs2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="bm2" SIZE=3>'
+<TR>
+<TD>c) 1000'  = <TD><INPUT TYPE="TEXT" NAME="cs2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="cm2" SIZE=3>'
+<TD>d) 125'  = <TD><INPUT TYPE="TEXT" NAME="ds2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="dm2" SIZE=3>'
+<TR><TD COLSPAN=4 ALIGN="Center"><INPUT TYPE="BUTTON" NAME="T2" VALUE="Hotovo" ONCLICK="hotovo1('pr',1)" >
+</TABLE>
+<P>
+</FORM>
+
+<FORM METHOD="GET">
+<B><LI>Vyjádřete ve stupních a minutách</B>
+<TABLE BORDER=0 CELLSPACING=20>
+<TR><TD>a) 0,4<SUP>o</SUP>  = <TD><INPUT TYPE="TEXT" NAME="as3" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="am3" SIZE=3>'
+<TD>b) 20,25<SUP>o</SUP>   = <TD><INPUT TYPE="TEXT" NAME="bs3" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="bm3" SIZE=3>'
+<TR><TD>c) 12,3<SUP>o</SUP>  = <TD><INPUT TYPE="TEXT" NAME="cs3" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="cm3" SIZE=3>'
+<TD>d) 92,9<SUP>o</SUP>  = <TD><INPUT TYPE="TEXT" NAME="ds3" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="dm3" SIZE=3>'
+<TR><TD COLSPAN=4 ALIGN="Center">
+<INPUT TYPE="BUTTON" NAME="T3" VALUE="Hotovo" ONCLICK="hotovo1('pr',2)" >
+</TABLE>
+</OL>
+</FORM>
+Správná řešení naleznete <A HREF="prevys.htm">zde</A>.
+</BODY>
+</HTML>

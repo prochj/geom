@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" CONTENT="HTML Editor">
+    <META NAME="DESCRIPTION" CONTENT="Lekce 2">
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1250">
+<TITLE>Konstrukce trojúhelníku podle věty sus</TITLE>
+</HEAD>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<SCRIPT language="JavaScript">
+var soubor="trojuhl.htm", krok=0
+
+function ksus() {
+if (krok>6) krok=0
+nazev='../gif/sus'+krok+'.gif'
+document.images.sus.src=nazev
+krok++
+}
+
+function spust(){
+video='../gif/sus.gif'
+document.images['sus'].src=video
+}
+
+</SCRIPT>
+<LINK rel=stylesheet href=vyklad.css type="text/css">
+<BODY  BGCOLOR="#FFFFF0" >
+<CENTER><H2>Konstrukce trojúhelníku podle věty <FONT COLOR="#FF0000">sus</FONT></H2><BR></CENTER>
+
+<TABLE BORDER=0>
+<TR><TD COLSPAN=2><B><U>Zadání :</U></B>
+<TR><TD VALIGN="Top" NOWRAP WIDTH=300>Sestrojte trojúhelník ABC, jestliže délka strany<TD> a = 6cm<BR> c = 4cm
+<TR><TD VALIGN="Top" NOWRAP WIDTH=280 ALIGN="Right">a velikost úhlu <TD><FONT FACE="Symbol">b</FONT> = 25°
+</TABLE> 
+
+<B><U>1. Rozbor</U></B><P>
+<B>Náčrtek</B><BR>
+Zadané prvky označíme červeně
+<CENTER><IMG SRC="../gif/nacrtsus.gif"></CENTER>
+<B>Podmínky řešitelnosti</B><BR>
+Aby bylo možno trojúhelník ABC sestrojit, musí paltit :
+<CENTER><table border="3" cellpadding="5" bordercolor="#A02028">
+    <tr>
+        <td class="def">Všechny úhly trojúhelníka jsou konvexní (menší než 180°)</td>
+    </tr>
+</table></CENTER>
+<P>
+Toto ověříme pro trojúhelník ABC <B><FONT FACE="Symbol">b</FONT>= 25° < 180°</B> , trojúhelník ABC lze sestrojit.
+
+<A NAME="sem">
+<TABLE BORDER=0 CELLSPACING=10>
+<TR><TH ALIGN="Left"><U>2. Zápis konstrukce</U><TH COLSPAN=2 ALIGN="Left"><U>3. Konstrukce</U>
+<TR><TD VALIGN="Top"><IMG SRC="../gif/zksus.gif"><TD><IMG SRC="../gif/susn.gif" NAME="sus" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#sem" ONCLICK="spust()" ONMOUSEMOVE="window.status='Spustit konstrukci sus'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Spustit konstrukci sus'; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#sem" ONCLICK="ksus()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Krokovat'; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,320 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 2.51354166666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -182, 8, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.10104166666667 -0.105833333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: -109, -104, NS: 11, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.619375 2.03729166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 93, 5, NS: 12, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.666875 -0.105833333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4 5
+
+7: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+8: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5
+
+9: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 3
+
+10: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4, Val: 0.68994892121728
+
+11: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 0.719744481087251
+
+12: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 5, Val: 0.799899787560223
+
+13: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 10
+
+14: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 10
+
+15: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 10
+
+16: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 10
+
+17: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 11
+
+18: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 11
+
+19: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 11
+
+20: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 11
+
+21: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 12
+
+22: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 12
+
+23: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 12
+
+24: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 12
+
+25: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 15 4 13
+
+"g2", NP: -64, -92, NS: 15, 18
+26: Int, 32768, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 10
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+"g1", NP: -145, -78, NS: 15, 18
+27: Int, 33024, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 10
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+28: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 27 13
+
+29: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 26 16
+
+30: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 23 5 21
+
+31: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 20 3 18
+
+"a2", NP: -140, 29, NS: 16, 18
+32: Int, 32768, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 31 11
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+"a1", NP: -186, -37, NS: 16, 18
+33: Int, 33024, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 31 11
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+"b1", NP: 49, 38, NS: 15, 18
+34: Int, 32768, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 30 12
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+"b2", NP: 73, -47, NS: 15, 18
+35: Int, 33024, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 30 12
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+36: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 20 33 18
+
+37: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 32 17
+
+38: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 23 35 21
+
+39: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 24 34 22
+
+40: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 5
+
+41: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 5 4
+
+42: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4 3
+
+43: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 40
+
+44: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 41 3
+
+45: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 42 5
+
+46: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 43 10
+
+47: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 45 12
+
+48: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 44 11
+
+"g", NP: -84, -45, NS: 11, 18
+49: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 43, Val: -2.1692566872428 1.349375
+p: 0, Symbol, S: 13 C: 3 Fa: 513
+
+50: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 49
+
+51: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 43 44
+
+"a", NP: -119, -27, NS: 12, 18
+52: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 44, Val: -3.22791666666667 0.152280261557178
+p: 0, Symbol, S: 13 C: 3 Fa: 513
+
+53: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 52
+
+"b", NP: 1, -20, NS: 11, 18
+54: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 45, Val: 0.40079475308642 0.164041666666667
+p: 0, Symbol, S: 13 C: 3 Fa: 513
+
+55: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 54
+
+56: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 53
+
+57: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 53
+
+58: Arc, 0, CN:3, VN:4
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 56 52 57
+
+59: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 55
+
+60: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 55
+
+61: Arc, 0, CN:3, VN:4
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 59 54 60
+
+62: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 50
+
+63: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 50
+
+64: Arc, 0, CN:3, VN:4
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 62 49 63
+
+65: Text, 0, CN:0, VN:1
+R, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 52 -130 0, nA, nP, TP: 1.37583333333333, 3.43958333333333,TS: 1.27, -0.47625
+"a, b, g "
+p: 0, Symbol, S: 13 C: 3 Fa: 513
+
+66: Text, 0, CN:0, VN:1
+R, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 96 -126 0, nA, nP, TP: 2.54, 3.33375,TS: 5.26520833333333, -0.47625
+" - vnitøní úhly trojúhelníka ABC"
+p: 0, System, S: 13 C: 3 Fa: 60929
+
+67: Text, 0, CN:0, VN:1
+dG, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 99 -99 0, nA, nP, TP: 2.619375, 2.619375,TS: 5.21229166666667, -0.47625
+" - vnìjší úhly trojúhelníka ABC"
+p: 0, System, S: 13 C: 9 Fa: 60929
+
+68: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -7 -100 0, nA, nP, TP: -0.185208333333333, 2.64583333333333,TS: 2.80458333333333, -0.47625
+"a1,a2, b1,b2, g1,g2 "
+p: 0, Symbol, S: 13 C: 9 Fa: 512
+
+69: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -339 -306 0, nA, nP, TP: -8.969375, 8.09625,TS: 9.604375, -0.873125
+"Vnìjší a vnitøní úhly trojúhelníka"
+p: 0, Times New Roman, S: 27 C: 5 Fa: 60992
+
+70: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 80 -203 0, nA, nP, TP: 2.11666666666667, 5.37104166666667,TS: 5.68854166666667, -1.32291666666667
+"Pohybujte vrcholy trojúhelníka a sledujte zmìny vnitøních i vnìjších úhlù trojúhelníka ABC."
+p: 0, System, S: 13 C: 15 Fa: 60929
+

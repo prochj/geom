@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1250">
+<meta name="GENERATOR" content="HTML Editor">
+<title>Kalkulaèka</title>
+</head>
+<SCRIPT language="JavaScript">
+function zapis(znak) {
+document.calc.T2.value+=znak
+
+}
+function vypocet() {
+var v=document.calc.T2.value
+
+document.calc.T1.value=v
+}
+
+
+
+</SCRIPT>
+
+<body bgcolor="#FFFFF0">
+
+<form method="GET" name="calc">
+    <table border="0">
+        <tr>
+            <td colspan="4"><input type="text" size="20"
+            name="T2" READONLY VALUE=""></td>
+        </tr>
+        <tr>
+            <td COLSPAN=2>Výsledek:</td>
+       
+            <td colspan="2"><input type="text" size="11"
+            name="T1" READONLY VALUE=""></td>
+        </tr>
+        <tr><TD><INPUT TYPE="RESET" VALUE="CE" NAME="C"></TD>
+<TR>
+            <td><input type="button" name="1" value=" 1 " ONCLICK="zapis(this.name)" ></td>
+            <td><input type="button" name="2" value=" 2 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="3" value=" 3 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="plus" value=" + " ONCLICK="zapis(this.value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="4" value=" 4 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="5" value=" 5 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="6" value=" 6 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="minus" value=" - " ONCLICK="zapis(this.value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="7" value=" 7 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="8" value=" 8 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="9" value=" 9 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="krat" value=" * " ONCLICK="zapis(this.value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="0" value=" 0 " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="," value=" . " ONCLICK="zapis(this.name)"></td>
+            <td><input type="button" name="enter" value=" = " ONCLICK="vypocet()" ></td>
+            <td><input type="button" name="deleno" value=" / " ONCLICK="zapis(this.value)"></td>
+        </tr>
+    </table>
+</form>
+</BODY>
+</HTML>

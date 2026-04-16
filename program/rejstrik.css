@@ -1,0 +1,4 @@
+BODY {background:#FFFFF0 ;margin-left: 20px; margin-right: 20px}
+A {text-decoration:none; color:#000000}
+A:link ,A:visited { text-decoration: none;}
+A:hover { text-decoration: underline; color:#C80020}

@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1250">
+</HEAD>
+<SCRIPT language ="JavaScript" SRC="ot.js"></SCRIPT>
+<LINK rel=stylesheet href=../listy.css type="text/css">
+<BODY  BGCOLOR="#FFFFF0" >
+<SCRIPT language="JavaScript">
+celkem = top.frames.seznam.pocot
+spravne = top.frames.seznam.bod
+procent = Math.round(spravne*100/celkem)
+var z
+if (celkem==2 || celkem==3 || celkem==4 || celkem==7 || celkem==17 ) z='Ze ' ;
+else z='Z ';
+var ot1
+if (celkem==1) ot1=' otázky';
+else ot1=' otázek';
+var ot2
+if (spravne==1) ot2=' otázku';
+if (spravne>1 && spravne<5) ot2=' otázky';
+if (spravne>=5 || spravne==0) ot2=' otázek';
+
+document.write('<CENTER><FONT SIZE=5 FACE="Times New Roman" COLOR="#E00000">'+z+celkem+ot1+' jsi vyřešil(a) správně '+spravne+ot2+', což je ' +procent+'%. </FONT></CENTER><BR><P>');
+
+
+if (procent < 60) {
+document.write('<CENTER><IMG SRC="../../gif/death.gif"></CENTER><BR>');
+document.write('<CENTER><FONT SIZE=4  COLOR=#0000FF>Měl by sis  výkladovou část rozhodně projít znovu !!</FONT></CENTER>');
+}
+if (procent>=60 && procent<80) {
+document.write('<CENTER><IMG SRC="../../gif/nicmoc.gif"></CENTER><BR>');
+document.write('<CENTER><FONT SIZE=4  COLOR=#0000FF>Testík by sis měl ještě alespoň jednou zopakovat, protože &quot;Opakování je matkou moudrosti&quot; !!</FONT></CENTER>');
+}
+if (procent>=80 && procent<90) {
+document.write('<CENTER><IMG SRC="../../gif/finish.gif"></CENTER><BR>');
+document.write('<CENTER><FONT SIZE=4  COLOR=#0000FF>Slušný výsledek, jen neusnout na vařínech !!</FONT></CENTER>');
+}
+if (procent>= 90 && procent<100) {
+document.write(' <CENTER><IMG SRC="../../gif/diplom.gif"></CENTER><BR>');
+document.write('<CENTER><FONT SIZE=4  COLOR=#0000FF>Výborný výsledek, škoda té chybičky !!</FONT></CENTER>');
+}
+if (procent==100) {
+document.write('<CENTER><IMG SRC="../../gif/diplom.gif"></CENTER><BR>');
+document.write('<CENTER><FONT SIZE=4  COLOR=#0000FF>Testík jsi zvládl(a) perfektně bez chyby, gratuluji !!</FONT></CENTER>');
+}
+</SCRIPT>
+
+</BODY>
+</HTML>

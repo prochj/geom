@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1250">
+    <META NAME="DESCRIPTION" CONTENT="Operace s úhly">
+    <META NAME="AUTHOR" CONTENT="Josef Procházka">
+<TITLE>Součet a rozdíl úhlů</TITLE>
+</HEAD>
+<SCRIPT language="JavaScript">
+var soubor="uhel.htm"
+</SCRIPT>
+<link rel="stylesheet" href="vyklad.css" type="text/css">
+<SCRIPT language ="JavaScript" SRC="../js/t1.js">
+</SCRIPT>
+<BODY  BGCOLOR="#FFFFF0" TEXT="#000000" LINK="#0000FF" ALINK="#FF0000" VLINK="#FF00FF">
+<CENTER><H1>Sčítání a odečítání úhlů</H1></CENTER>
+<H3>Sčítání úhlů</H3>
+Sčítání úhlů v radiánech se řídí běžnými pravidly pro sčítání desetinných čísel v desítkové soustavě.<BR>
+<U><B>Př:</B></U> <P class="vypocet"> 3,12 rad + 1,08 rad = 4,2 rad</P>
+
+Jiná situace však nastane, jsou-li velikosti úhlů udány ve <A HREF="uhel.htm#stup">stupňové míře</A>.
+V případě že minuty ani vteřiny nepřekročí šedesátku, nemusíme si dělat žádné starosti. 
+Sečteme zvlášť stupně, minuty a vteřiny:
+<P class="vypocet" ALIGN="CENTER"> 12<SUP>o </SUP>30' 10" + 60<SUP>o </SUP>20' 15" = (12<SUP>o</SUP>+60<SUP>o</SUP>) + (30'+20') + (10"+15") = 72<SUP>o</SUP> 50' 25"</P>
+Jestliže však minuty či vteřiny překročí šedesátku, musíme je opět převádět podle pravidla: 
+<TABLE BORDER=1 BORDERCOLOR="#980000" ALIGN="CENTER" NOFLOW>
+<TR><TD>1<SUP>o</SUP> = 60'		1' = 60"
+</TABLE>
+<BR>
+<B><U>Př:</U></B> Sečtěte :  10<SUP>o </SUP>50' 30" + 40<SUP>o</SUP> 29' 40"<BR>
+
+Sčítat začneme odzadu, tzn. od vteřin po stupně, aby se nám lépe převádělo:
+<P class="vypocet" ALIGN="CENTER"> 30" + 40" = 70" = 60" + 10" = 1' <FONT COLOR="#FF0000"><B>10"</B></FONT></P>
+Zapíšeme 10" a jednu minutu přičteme k ostatním minutám:
+<P class="vypocet" ALIGN="CENTER"> 50' + 29' + 1' = 80'  = 60' + 20' = 1<SUP>o </SUP><FONT COLOR="#FF0000"><B>20'</B></FONT></P>
+20' můžeme opět zapsat do výsledku a nesmíme zapomenout 1<SUP>o </SUP> přičíst ke stupňům:
+<P class="vypocet" ALIGN="CENTER">10<SUP>o </SUP>+ 40<SUP>o </SUP>+  1<SUP>o </SUP> = <FONT COLOR="#FF0000"><B>51<SUP>o </SUP></B></FONT></P> 
+Nyní už můžeme zapsat celý výsledek:<BR>
+<CENTER><B>10<SUP>o </SUP>50' 30" + 40<SUP>o</SUP> 29' 40" = <FONT COLOR="#FF0000">51<SUP>o </SUP> 20' 10"</B></FONT></CENTER>
+<H3>Odečítání úhlů</H3>
+Pro odečítání velikostí úhlů uváděných v radiánech opět platí pravidla pro odčítání čísel v desítkové soustavě, proto se jím nebudeme zabývat.
+ Zvýšenou pozornost budeme naopak věnovat odčítání úhlů, jejichž velikosti jsou udávány ve stupňové míře. 
+ Jestliže jsou všechny části menšence větší než příslušné části menšitele, jednoduše je od sebe můžeme odečíst:<BR>
+
+<U><B>Př:</B></U><FONT class="vypocet"> 50<SUP>o </SUP> 40'  - 20<SUP>o </SUP> 12'  = (50<SUP>o </SUP>-20<SUP>o </SUP>) + (40' - 12') = 30<SUP>o </SUP> 28'</FONT>
+
+
+<A NAME="cvic2">
+
+<FORM METHOD="GET">
+<IMG SRC="../gif/cvic.gif" WIDTH=109 HEIGHT=41>
+<P>
+<OL>
+<B><LI>Vypočítejte ve stupních </B>
+<TABLE BORDER=0 CELLSPACING=20>
+
+<TR><TH>a) <TD ALIGN="Right">20<SUP>o</SUP>+135<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="a1" SIZE=3><SUP>o</SUP>
+<TH>b) <TD ALIGN="Right">10<SUP>o</SUP>+350<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="b1" SIZE=3><SUP>o</SUP>
+<TR><TH>c) <TD ALIGN="Right">230<SUP>o</SUP>-180<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="c1" SIZE=3><SUP>o</SUP>
+<TH>d) <TD ALIGN="Right">5<SUP>o</SUP>-220<SUP>o</SUP> = <TD><INPUT TYPE="TEXT" NAME="d1" SIZE=3><SUP>o</SUP>
+<TR><TD COLSPAN=6 ALIGN="Center"><INPUT TYPE="BUTTON" NAME="T2" VALUE="Hotovo" ONCLICK="hotovo1('op',0)" >
+</TABLE>
+<P>
+</FORM>
+<FORM METHOD="GET">
+<B><LI>Vypočítejte ve stupních a minutách</B>
+<TABLE BORDER=0 CELLSPACING=15>
+<TR>
+<TH>a) <TD ALIGN="Right" NOWRAP>24<SUP>o</SUP> 10' + 35<SUP>o</SUP>12' = <TD NOWRAP><INPUT TYPE="TEXT" NAME="as2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="am2" SIZE=3>'
+<TH>b) <TD ALIGN="Right" NOWRAP>47<SUP>o</SUP> 45' + 23<SUP>o</SUP>20' =<TD NOWRAP><INPUT TYPE="TEXT" NAME="bs2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="bm2" SIZE=3>'
+<TR>
+<TH>c) <TD ALIGN="Right" NOWRAP>48<SUP>o</SUP> - 6<SUP>o</SUP>10' =<TD NOWRAP><INPUT TYPE="TEXT" NAME="cs2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="cm2" SIZE=3>'
+<TH>d) <TD ALIGN="Right" NOWRAP>50<SUP>o</SUP> 26' - 17<SUP>o</SUP>42' =<TD NOWRAP><INPUT TYPE="TEXT" NAME="ds2" SIZE=3><SUP>o</SUP> <INPUT TYPE="TEXT" NAME="dm2" SIZE=3>'
+<TR><TD COLSPAN=6 ALIGN="Center">
+<INPUT TYPE="BUTTON" NAME="T2" VALUE="Hotovo" ONCLICK="hotovo1('op',1)"  >
+</TABLE>
+<P>
+</FORM>
+<FORM METHOD="GET">
+<B><LI>Doplňte chybějící členy výpočtu</B>
+<TABLE BORDER=0 CELLSPACING=15 >
+<TR>
+<TH>a) <TD ALIGN="Right" NOWRAP>198<SUP>o</SUP> <INPUT TYPE="TEXT" NAME="am3" SIZE=3>' + <INPUT TYPE="TEXT" NAME="as3" SIZE=3><SUP>o</SUP> 50' = <TD NOWRAP>220<SUP>o</SUP> 02' 
+<TH>b) <TD ALIGN="Right" NOWRAP>55<SUP>o </SUP> 52' + 44<SUP>o </SUP><INPUT TYPE="TEXT" NAME="bm3" SIZE=3>' =<TD NOWRAP><INPUT TYPE="TEXT" NAME="bs3" SIZE=3><SUP>o</SUP> 29'
+<TR>
+<TH>c) <TD ALIGN="Right" NOWRAP><INPUT TYPE="TEXT" NAME="cs3" SIZE=3><SUP>o</SUP>15' - 180<SUP>o </SUP> <INPUT TYPE="TEXT" NAME="cm3" SIZE=3>' =<TD NOWRAP>55<SUP>o</SUP> 50'
+<TH>d) <TD ALIGN="Right" NOWRAP>359<SUP>o </SUP> <INPUT TYPE="TEXT" NAME="dm3" SIZE=3>' - 273<SUP>o </SUP> 40' =<TD NOWRAP><INPUT TYPE="TEXT" NAME="ds3" SIZE=3><SUP>o </SUP> 40'
+<TR><TD COLSPAN=6 ALIGN="Center">
+<INPUT TYPE="BUTTON" NAME="T3" VALUE="Hotovo" ONCLICK="hotovo1('op',2)" >
+</TABLE></OL>
+Správné řešení cvičení naleznete <A HREF="oprevysl.htm">zde</A>.
+</FORM>
+</BODY>
+</HTML>

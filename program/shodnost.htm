@@ -1,0 +1,214 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1250">
+<meta name="AUTHOR" content="Josef Procházka">
+<meta name="GENERATOR" content="HTML Editor 2.94">
+<title>Shodná zobrazení</title>
+<link rel="stylesheet" href="vyklad.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFF0">
+<script language="JavaScript">
+var soubor="shodnost.htm"
+var krok=0
+function krokuj() {
+if (krok>10) krok=0
+nazev='../gif/os'+krok+'.gif'
+document.images.platno.src=nazev
+krok++
+}
+
+function spust(){
+video='../gif/osovka.gif'
+document.images['platno'].src=video
+}
+
+var kroks=0
+function krokujs() {
+if (krok>6) kroks=0
+nazev='../gif/ss'+kroks+'.gif'
+document.images.platnos.src=nazev
+kroks++
+}
+
+function spusts(){
+video='../gif/stredov.gif'
+document.images['platnos'].src=video
+}
+</script>
+
+<MAP NAME="shod">
+<AREA ALT="Cabri" SHAPE="rect" COORDS="0,0,37,36" HREF="../cab/shodne.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOUT="window.status='' ;return true" >
+
+</MAP>
+
+<MAP NAME="oso">
+<AREA ALT="Cabri" SHAPE="rect" COORDS="0,0,35,32" HREF="../cab/osova.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true"  ONMOUSEOUT="window.status='' ;return true">
+</MAP>
+
+<MAP NAME="mot">
+<AREA ALT="Cabri" SHAPE="rect" COORDS="0,0,35,32" HREF="../cab/osutvar.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true"  ONMOUSEOUT="window.status='' ;return true">
+</MAP>
+
+<MAP NAME="stredo">
+<AREA ALT="Cabri" SHAPE="rect" COORDS="0,0,35,32" HREF="../cab/stredov.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true"  ONMOUSEOUT="window.status='' ;return true">
+</MAP>
+
+<MAP NAME="vlocka">
+<AREA ALT="Cabri" SHAPE="rect" COORDS="0,0,35,32" HREF="../cab/strutvar.fig" ONMOUSEMOVE="window.status='Zobrazit v Cabri II' ;return true" ONMOUSEOVER="window.status='Zobrazit v Cabri II' ;return true"  ONMOUSEOUT="window.status='' ;return true">
+</MAP>
+
+<A NAME="obs">
+<h1 align="center">Soumìrnost</h1>
+<H2>Obsah :</H2>
+<UL class="obsah">
+<LI> <A HREF="#shut">Shodné útvary</A></LI>
+<LI><A HREF="#oso">Osová soumìrnost</A></LI>
+<LI><A HREF="#konstr">Konstrukce obrazu v o.s.</A></LI>
+<LI> <A HREF="#osutvar">Osovì soumìrné útvary</A></LI>
+<LI> <A HREF="#stredova">Støedová soumìrnost</A></LI> 
+<LI><A HREF="#konstrs">Konstrukce obrazu v s.s.</A></LI>
+<LI> <A HREF="#stutvar">Støedovì soumìrné útvary</A></LI>
+</UL>
+<A NAME="shut">
+<h2>Shodné útvary</h2>
+<CENTER><table border="3" cellpadding="5" bordercolor="#A02028">
+    <tr>
+        <td class="def">Shodnımi útvary v rovinì rozumíme takové dva rovinné
+obrazce, které se po posunutí na sebe <B>navzájem kryjí</B>.<BR></td>
+    </tr>
+</table></CENTER>
+<BR>
+
+ Na papíøe staèí jeden útvar vystøihnout a poloit na druhı.
+<IMG SRC="../gif/shodne.gif" WIDTH=236 HEIGHT=138 ALIGN="left" USEMAP="#shod" ISMAP BORDER=0>
+Jestlie se pøesnì kryjí, jsou shodné. Ne vdy však
+mùeme útvar vystøihnout, pomùeme si tedy takzvanou <b>&quot;Prùsvitkovou
+metodou&quot;</b>. Ta spoèívá v tom, e jeden z útvarù
+obkreslíme na prùsvitku a vzniklı obrys pøesuneme na druhı
+útvar. Jestlie se obrysy obou útvarù pøesnì pøekrıvají,
+mùeme øíct, e jsou útvary shodné. <P>
+<B><FONT COLOR="#FF0000" SIZE=4>Pozor !</FONT></B> Nezapomeòte, e shodné útvary mohou bıt umístìny v rùznıch polohách. Mohou bıt rùznì otoèeny nebo pøevráceny. I vy tedy prúsvitkou otáèejte a pøevracejte ji, aby jste získali jistotu v následujícím <a href="cvicsh.htm"><b>cvièení</b> </a>.<P>
+<DIV class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Které úseèky jsou shodné ?<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left">Které úhly jsou shodné ?<P>
+<IMG SRC="../gif/ot.gif" ALIGN="left">Zamysli se, o kterıch geometrickıch útvarech lze øíci, e jsou vdy shodné?</DIV>
+<A NAME="oso">
+<h2>Osová soumìrnost</h2>
+Osová soumìrnost je zobrazení v rovinì, které pøeklápí vzory pøes osu. Jednoduše si jej lze pøedstavit, jako obtisk po pøeloení listu papíru.<IMG SRC="../gif/osso.gif" USEMAP="#oso" BORDER=0 ALIGN="left" > Osovou soumìrností vznikne tedy obraz, kterı je <B>shodnı</B> se vzorem a pøevrácenı ve smìru kolmém na osu. 
+Pùvodní obrazec nazıváme <B>VZOR</B>, ten kterı vznikne zobrazením nazıváme <B>OBRAZ</B>, ten oznaèujeme vìtšinou jako vzor s èárkou. Pøímku, pøes kterou se vzor pøeklápí nazıváme <B>Osa soumìrnosti</B>. <BR>
+Na obrázku v Cabri si všimìte, e se osovou soumìrností pøeklápí celé poloroviny vyjma osu soumìrnosti. Všechny body osy soumìrnosti zùstávají namístì a tedy i prùseèíky vzorù s osou soumìrnosti se kryjí se svımi obrazy. Takové body, jejich vzory se kryjí se svımi obrazy nazıváme <B>samodruné body</B>.
+
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Na obrázku v <A HREF="../cab/osova.fig">Cabri</A> se pokuste nastavit útvary tak, aby byly samodruné, tj aby vzory splynuly s obrazy. Podaøilo se vám to u všech obrazcù ?</P>
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Zjistìte, kdy osová soumìrnost zachovává rovnobìnost, to znamená, které úseèky vzoru jsou rovnobìné se svımi obrazy. </P>
+
+
+Dokáete ji sami sestrojit obrazy jednoduchıch útvarù v osové soumìrnosti? Pokud si ještì nejste jisti, spuste si <A HREF="#konstr">konstrukci osové soumìrnosti</A>, která vše objasní. <BR>
+<A NAME="konstr">
+<H2>Konstrukce obrazu v osové soumìrnosti</H2>
+<B>Zadání :</B>
+Sestrojte obraz úseèky <B>AB</B> v osové soumìrnosti s osou o.<P>
+<TABLE BORDER=0>
+<TR><TD>
+
+<IMG SRC="../gif/os.gif" ALIGN="left">
+<TD>
+<B>Postup konstrukce:</B><BR>
+Sestrojíme obrazy bodù A,B a spojíme v úseèku A'B'. Obrazy nalezneme tak, e spustíme vdy ze vzoru kolmici na osu soumìrnosti. Tím získáme bod P - patu kolmice o kterém víme, e leí ve støedu úseèky vzor obraz. <BR>
+Spuste si následující animaci a úlohu vyøešte zároveò do sešitu.
+</TABLE>
+<A NAME="sem">
+<B>Konstrukce:</B>
+<CENTER><TABLE BORDER=0 CELLSPACING=10>
+<TR><TD><IMG SRC="../gif/os108.gif" NAME="platno" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#sem" ONCLICK="spust()" ONMOUSEMOVE="window.status='Spustit konstrukci osové soumìrnosti'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Spustit konstrukci osové soumìrnosti'; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#sem" ONCLICK="krokuj()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Krokovat'; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+</CENTER>
+
+Jestli jste si jisti u nyní, ovìøte si znalosti v následujícím <A HREF="cvicos.htm"><B>cvièení</B></A>.
+
+<A NAME="osutvar">
+<h2>Osovì soumìrné útvary</h2>
+<CENTER><table border="3" cellpadding="5" bordercolor="#A02028" ALIGN="CENTER">
+    <tr>
+        <td class="def"><B>Osovì soumìrnı útvar</B> se dá rozdìlit pøímkou na dvì shodné èásti, pro které platí: Kdy pøeklopíme jednu èást podle této pøímky, kryje se pøesnì s druhou èástí.</td>
+    </tr>
+</table></CENTER>
+
+Pøímka je tedy <B>osa soumìrnosti</B> tohoto útvaru.<P>
+
+<IMG SRC="../gif/motyl.gif" USEMAP="#mot" BORDER=0 ALIGN="left" >U geometrickıch útvarù rozhodneme o jejich soumìrnosti snadno. Setkali jsme se ji s úhlem a jeho osou somìrnosti, toti <A HREF="uhel.htm#osa">osou úhlu</A> a víme i e kadá úseèka má svou osu soumìrnosti a to <A HREF="trojuhl.htm#ops">osu úseèky</A>.<BR>
+ Spuste si obrázek v <A HREF="../cab/osutvar.fig">Cabri</A>, kde je narısován <B>osovì soumìrnı šestiúhelník</B> a pokuste se zde vymodelovat osovì soumìrnı trojúhelník, obdélník, ètverec, pìtiúhelník a další geometrické útvary. Pøipomeòte si, které body útvaru jsou <B>samoruné</B>.<BR>
+Osovì soumìrné útvary však neexistují pouze v geometrii, ale setkáváme se s nimi dennì. Pøíkladem mùe bıt tento motıl, nìkteré dopravní znaèky a další pøedmìty. <BR>
+<CENTER><IMG SRC="../gif/souvec.gif"></CENTER>
+<P class="ot"><IMG SRC="../gif/ot.gif" ALIGN="left" >Naleznìte osy soumìrnosti u útvarù na obrázku.</P>
+<P class="ot"><IMG SRC="../gif/ot.gif" ALIGN="left" >Vyjmenujte ještì alespoò pìt osovì soumìrnıch útvarù.</P>
+
+Útvary však mohou mít i <B>více ne jednu osu soumìrnosti</B>. To nejlépe uvidíte v následujícím <A HREF="cvicvl.htm"><B>cvièení</B></A>. <P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left" >Kolik os soumìrnosti má ètverec, kolik krunice a kolik míè na obrázku ?
+</P>
+
+<A NAME="stredova">
+<h2>Støedová soumìrnost</h2>
+<TABLE BORDER=0>
+<TR><TD COLSPAN=2>
+Støedová soumìrnost je, stejnì jako soumìrnost osová, zobrazení v rovinì, které pøevádí vzory na obrazy. Rozdíl oproti osové soumìrnosti je v tom, e pøeklopení vzoru probíhá pøes jedinı bod, kterı nazıváme <B>støed soumìrnosti</B>.<BR>
+<TR><TD>
+<IMG SRC="../gif/strsou.gif" USEMAP="#stredo" BORDER=0 ALIGN="left" HSPACE=20 VSPACE=20 >
+<TD VALIGN="Top">
+Na obrázku vidíte <IMG SRC="../gif/trojzn.gif"><B>ABC - vzor</B> zobrazenı ve støedové somìrnosti se støedem S na <IMG SRC="../gif/trojzn.gif"><B>A'B'C' - obraz</B>. Body  A', B', C' jsou tedy obrazy bodù A, B, C ve støedové soumìrnosti se støedem S. <BR>
+Všimìte si, jak se <IMG SRC="../gif/trojzn.gif">ABC pøevrátil. Zatímco u osové soumìrnosti se vzor pøevracel pouze ve smìru kolmém na osu soumìrnosti, ve støedové soumìrnosti je pøevrácení sloitìjší. Narozdíl od osové soumìrnosti, støedová soumìrnost <B>zachovává rovnobìnost</B>, to znamená, e kterákoliv úseèka vzoru je rovnobìná se svım obrazem. 
+</TABLE>
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Kterı bod je ve støedové soumìrnosti vdy samodrunı?</P>
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Které útvary na obrázku v <A HREF="../cab/stredov.fig">Cabri</A> lze pøesunout tak, aby byly samodruné? </P>
+
+
+<h2>Konstrukce obrazu ve støedové soumìrnosti</h2>
+<B>Zadání :</B>
+Sestrojte obraz trojúhelníku <B>ABC</B> ve støedové soumìrnosti se støedem <FONT COLOR="#FF0000"><B>S</B></FONT>.<P>
+<TABLE BORDER=0>
+<TR><TD>
+
+<IMG SRC="../gif/ssz.gif" ALIGN="left">
+<TD VALIGN="Top">
+<B>Postup konstrukce:</B><BR>
+Postupnì vyneseme polopøímky AS, BS, CS a sestrojíme body A', B', C' tak, aby bod <FONT COLOR="#FF0000">S</FONT> byl vdy støedem úseèky vzor-obraz. Obrazy bodù A,B,C spojíme v trojúhelník, èím dostaneme obraz <IMG SRC="../gif/trojzn.gif">ABC ve støedové soumìrnosti se støedem <FONT COLOR="#FF0000">S</FONT>.
+</TABLE>
+<A NAME="konstrs">
+<B>Konstrukce:</B>
+<CENTER><TABLE BORDER=0 CELLSPACING=10>
+<TR><TD><IMG SRC="../gif/ss6.gif" NAME="platnos" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#konstrs" ONCLICK="spusts()" ONMOUSEMOVE="window.status='Spustit konstrukci støedové soumìrnosti'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Spustit konstrukci støedové soumìrnosti'; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#konstrs" ONCLICK="krokujs()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" ONMOUSEOVER="window.status='Krokovat'; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+</CENTER>
+Konstrukci støedové soumìrnosti si procviète v následujícím <B><A HREF="cvicss.htm">cvièení</A></B>.
+<A NAME="stutvar">
+<h2>Støedovì soumìrné útvary</h2>
+
+<TABLE BORDER=0>
+<TR><TD>
+<IMG SRC="../gif/ssutvar.gif" USEMAP="#vlocka" BORDER=0 >
+<TD VALIGN="Top"><B>Støedovì soumìrnı útvar</B> je vdy soumìrnı podle vlastního støedu S. To znamená, e ke kadému bodu nalezneme jeho obraz ve støedové soumìrnosti se støedem S, kterı rovnì náleí tomuto útvaru. <BR>
+Spuste si ukázku v <A HREF="../cab/strutvar.fig">Cabri</A> a a si budete jisti, e poznáte støedovì soumìrnı útvar, vyøešte následující <B><A HREF="cvicsso.htm">cvièení</A>.</B>
+
+</TABLE>
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Nastavte šestiúhelník v <A HREF="../cab/strcvic.fig">Cabri</A> tak, aby byl støedovì soumìrnım útvarem.</P>
+<P class="ot">
+<IMG SRC="../gif/ot.gif" ALIGN="left">Vyjmenujte alespoò 5 støedovì soumìrnıch útvarù z vašeho okolí.</P>
+</body>
+</html>

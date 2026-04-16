@@ -1,0 +1,58 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -25, 84, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.582083333333333 -2.16958333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 61, -67, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.37583333333333 1.71979166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+"o", NP: -115, -52, NS: 10, 18
+6: PBiss, 0, CN:1, VN:2
+B, W, t, DS:5 8, GT:0, V, nSt
+Const: 5
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"S", NP: -56, -22, NS: 11, 18
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6, Val: -1.48166666666667 0.720764597505669
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"k", NP: 15, -110, NS: 9, 18
+8: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 3
+p: 0, System, S: 0 C: 6 Fa: 0
+
+9: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -121 -203 0, nA, nP, TP: -3.20145833333333, 5.37104166666667,TS: 3.413125, -0.926041666666667
+"Osa úseèky"
+p: 0, Times New Roman, S: 29 C: 5 Fa: 60992
+
+10: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 67 -142 0, nA, nP, TP: 1.77270833333333, 3.75708333333333,TS: 5.76791666666667, -0.899583333333333
+"Pohybujte kterýmkoliv bodem na obrázku a sledujte kružnici k."
+p: 0, System, S: 0 C: 15 Fa: 0
+

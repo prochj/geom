@@ -1,0 +1,9 @@
+BODY {background:#FFFFF0 ;margin-left: 20px; margin-right: 20px }
+.obsah {margin-left :150px}
+.nd {font-family:Arial Black; text-decoration: underline;} 
+.def {font-family:Times New Roman; font-style: italic} 
+.ot {color:#000040 ;font-style: italic}
+.vypocet {font-family:Arial; color:#FF0000; text-align: center }
+A:link {color:#0000FF}
+A:visited {color:#0000B1}
+A:hover {color:#C80020}

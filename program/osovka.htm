@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1250">
+<meta name="AUTHOR" content="Josef Procházka">
+<meta name="GENERATOR" content="HTML Editor 2.94">
+<title>Shodná zobrazení</title>
+</head>
+<link rel="stylesheet" href="vyklad.css" type="text/css">
+<script language="JavaScript">
+var soubor="shodnost.htm"
+var krok=0
+function krokuj() {
+if (krok>10) krok=0
+nazev='../gif/os'+krok+'.gif'
+document.images.platno.src=nazev
+krok++
+}
+
+function spust(){
+video='../gif/osovka.gif'
+document.images['platno'].src=video
+}
+
+</script>
+<body bgcolor="#FFFFF0">
+<U><H1 ALIGN="CENTER">Konstrukce obrazu v osové soumìrnosti</H1></U>
+<B><U>Zadání :</U></B>
+Sestrojte obraz úseèky <B>AB</B> ve støedové soumìrnosti s osou o.<P>
+<CENTER><IMG SRC="../gif/os.gif"></CENTER><P>
+<B><U>Øešení:</U></B><P>
+
+Sestrojíme obrazy bodù A,B a spojíme v úseèku A'B'. Obrazy nalezneme tak, e spustíme vdy ze vzoru kolmici na osu soumìrnosti. Tím získáme bod P - patu kolmice o kterém víme, e leí ve støedu úseèky vzor obraz. <BR>
+Spuste si následující animaci a úlohu vyøešte zároveò do sešitu.
+
+<CENTER><TABLE BORDER=0 CELLSPACING=10>
+<TR><TD><IMG SRC="../gif/os108.gif" NAME="platno" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#sem" ONCLICK="spust()" ONMOUSEMOVE="window.status='Spustit konstrukci osové soumìrnosti'; return true;" ONMOUSEOUT="window.status=''; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#sem" ONCLICK="krokuj()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

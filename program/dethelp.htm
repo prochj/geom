@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<SCRIPT language="JavaScript">
+
+var loc
+loc = top.frames.main.document.location.href
+delka = loc.length
+od = loc.lastIndexOf("/")
+kam = loc.lastIndexOf("#")
+if (kam==-1) strih = loc.substring(od+1,delka)
+else strih = loc.substring(od+1,kam)
+
+if (strih.indexOf("ot")!=-1) open("othelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else{
+if (strih=='start.htm' || strih=='vysledek.htm') open("testhelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else {
+if (strih=='rejstrik.htm') open("rejhelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else {
+if (strih.indexOf("cvic")!=-1) open("cvichelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else {
+if (strih=='prevody.htm' || strih=='operace.htm') open("pochelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else {
+if (strih.indexOf("test")!=-1)open( "tehelp.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+else  open("helpie.htm","DisplayWindow","toolbar=no,directories=no,menubar=no, width=200, height=200,scrollbars=no, resizable=yes" );
+}
+}
+}
+}
+}
+
+</SCRIPT>
+</BODY>
+</HTML>

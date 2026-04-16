@@ -1,0 +1,674 @@
+Language CabriII vers. MS-Windows 1.01 Czech 03
+//
+// Comments begin with // and end with a carriage return.
+// Use /\/ to get // into a string without starting a comment.
+//
+// Entries are terminated by carriage return followed immediately
+// by the [ character.
+//
+// The character & indicates underscore in menus. To get an
+// ampersand, use && .
+//
+// To get a carriage return into a string, use .
+//
+[1]Cabri Geometrie II
+[2]interaktivní geometrický náèrtník
+[3]autoøi:
+[4]verze
+[5.1]distribuce v ÈR: Akermann Electronic, Praha 10, Ukrajinská 2 
+[5.2]http:/\/www.akermann.cz   pavel@akermann.cz   02/71746247 
+[6.1]informace o programu:
+[6.2]http:/\/www.ti.com/calc         ti-cares@ti.com
+[6.3]èesky: matheduc@pedf.cuni.cz    02/21900247
+[6.4] 
+[7]Cabri-géometre II je obchodní známka University Josepha Fouriera
+[8.0]bez jednotek
+[8.1]mm
+[8.2]cm
+[8.3]m
+[8.4]km
+[8.5]jednotka délky//§
+[8.6]mm²
+[8.7]cm²
+[8.8]m²
+[8.9]km²
+[8.10]jednotka obsahu//§
+[8.11]mm³//§
+[8.12]cm³//§
+[8.13]m³//§
+[8.14]km³//§
+[8.15]jednotka objemu//§
+[8.16]rad
+[8.17]°
+[8.18]grad
+[9.1]mm
+[9.2]cm
+[9.3]m
+[9.4]km
+[9.5]j.d.//§
+[9.6]mm²
+[9.7]cm²
+[9.8]m²
+[9.9]km²
+[9.10]j.obs.//§
+[9.11]mm³//§
+[9.12]cm³//§
+[9.13]m³//§
+[9.14]km³//§
+[9.15]j.obj.//§
+[9.16]rad
+[9.17]° 
+[9.18]grad
+[10]tento//§
+[11.1]na této pøímce
+[11.2]na této polopøímce
+[11.3]na této ose
+[11.4]na této úseèce
+[11.5]na tomto vektoru
+[11.6]na tomto trojúhelníku
+[11.7]na tomto mnohoúhelníku
+[11.8]na této kružnici
+[11.9]na tomto oblouku
+[11.10]na této množinì
+[11.11]na této kuželoseèce
+[11.12]v tomto møížovém bodì
+[12.1]tímto bodem
+[12.2]a tímto bodem
+[13.1]z tohoto poèáteèního bodu
+[13.2]do tohoto koncového bodu
+[14.1]s tímto vrcholem
+[14.2]s tímto vrcholem
+[14.3]a s tímto vrcholem
+[15.1]s tímto støedem
+[15.2]a tímto bodem
+[16.1]s tímto krajním bodem
+[16.2]s tímto vnitøním bodem
+[16.3]a s tímto krajním bodem
+[17.1]støed mezi tímto bodem
+[17.2]a tímto bodem
+[17.3]støed této úseèky
+[17.4]støed tohoto vektoru
+[17.5]støed této strany trojúhelníka
+[17.6]støed této strany mnohoúhelníka
+[18.1]osu mezi tímto bodem
+[18.2]a tímto bodem
+[18.3]osu této úseèky
+[18.4]osu tohoto vektoru
+[18.5]osu této strany trojúhelníka
+[18.6]osu této strany mnohoúhelníka
+[19.1]tímto bodem
+[19.2]rovnobìžnì s touto pøímkou
+[19.3]rovnobìžnì s touto polopøímkou
+[19.4]rovnobìžnì s touto osou
+[19.5]rovnobìžnì s touto úseèkou
+[19.6]rovnobìžnì s tímto vektorem
+[19.7]rovnobìžnì s touto stranou trojúhelníka
+[19.8]rovnobìžnì s touto stranou mnohoúhelníka
+[20.1]tímto bodem
+[20.2]kolmo na tuto pøímku
+[20.3]kolmo na tuto polopøímku
+[20.4]kolmo na tuto osu
+[20.5]kolmo na tuto úseèku
+[20.6]kolmo na tento vektor
+[20.7]kolmo na tuto stranu trojúhelníka
+[20.8]kolmo na tuto stranu mnohoúhelníka
+[21.1]posunout tento bod
+[21.2]posunout tuto pøímku
+[21.3]posunout tuto polopøímku
+[21.4]posunout tuto úseèku
+[21.5]posunout tento vektor
+[21.6]posunout tento trojúhelník
+[21.7]posunout tento mnohoúhelník
+[21.8]posunout tuto kružnici
+[21.9]posunout tento oblouk
+[21.10]posunout tuto kuželoseèku
+[21.11]o tento vektor
+[22.1]zobrazit tento bod
+[22.2]zobrazit tuto pøímku
+[22.3]zobrazit tuto polopøímku
+[22.4]zobrazit tuto úseèku
+[22.5]zobrazit tento vektor
+[22.6]zobrazit tento trojúhelník
+[22.7]zobrazit tento mnohoúhelník
+[22.8]zobrazit tuto kružnici
+[22.9]zobrazit tento oblouk
+[22.10]zobrazit tuto kuželoseèku
+[22.11]soumìrnì podle tohoto objektu
+[23.1]otoèit tento bod
+[23.2]otoèit tuto pøímku
+[23.3]otoèit tuto polopøímku
+[23.4]otoèit tuto úseèku
+[23.5]otoèit tento vektor
+[23.6]otoèit tento trojúhelník
+[23.7]otoèit tento mnohoúhelník
+[23.8]otoèit tuto kružnici
+[23.9]otoèit tento oblouk
+[23.10]otoèit tuto kuželoseèku
+[23.11]kolem tohoto støedu
+[23.12]o tento úhel
+[24.1]zobrazit tento bod ve stejnolehlosti
+[24.2]zobrazit tuto pøímku ve stejnolehlosti
+[24.3]zobrazit tuto polopøímku ve stejnolehlosti
+[24.4]zobrazit tuto úseèku ve stejnolehlosti
+[24.5]zobrazit tento vektor ve stejnolehlosti
+[24.6]zobrazit tento trojúhelník ve stejnolehlosti
+[24.7]zobrazit tento mnohoúhelník ve stejnolehlosti
+[24.8]zobrazit tuto kružnici ve stejnolehlosti
+[24.9]zobrazit tento oblouk ve stejnolehlosti
+[24.10]zobrazit tuto kuželoseèku ve stejnolehlosti
+[24.11]s tímto støedem
+[24.12]s tímto koeficientem
+[25.1]od tototo bodu
+[25.2]k tomuto bodu
+[25.3]k této pøímce
+[25.4]k této ose
+[25.5]k této kružnici
+[26.1]délka této úseèky
+[26.2]velikost tohoto vektoru
+[26.3]délka této kružnice
+[26.4]délka tohoto oblouku
+[26.5]obvod tohoto trojúhelníka
+[26.6]obvod tohoto mnohoúhelníka
+[26.7]délka této kuželoseèky
+[26.8]délka tohoto oblouku kuželoseèky//§
+[27.1]souøadnice tohoto bodu
+[27.2]rovnice této pøímky
+[27.3]rovnice této kružnice
+[27.4]rovnice této kuželoseèky
+[27.5]v této soustavì souøadnic
+[28]tabelovat tuto hodnotu
+[29]upravit tento text
+[30]upravit tento text (s vlastností)
+[31]vložit toto èíslo
+[32]upravit toto èíslo//§
+[33]který objekt?
+[34]tento název
+[35]v tomto prùseèíku
+[36]na kterém objektu?
+[37]v tomto prùseèíku
+[38]bod tohoto objektu
+[39.1]tento bod
+[39.2]tato úseèka
+[39.3]tento vektor
+[39.4]tento trojúhelník
+[39.5]tento mnohoúhelník
+[39.6]tento pravidelný mnohoúhelník
+[39.7]tato pøímka
+[39.8]tato polopøímka
+[39.9]tato kružnice
+[39.10]tento oblouk
+[39.11]tato kuželoseèka
+[39.12]tato soustava souøadnic
+[39.13]tento møížový bod
+[39.14]tato množina
+[39.15]tento úhel
+[39.16]tento text
+[39.17]toto èíslo
+[39.18]tato vlastnost
+[39.19]tato rovnice
+[39.20]tato tabulka
+[39.21]tato úseèka
+[39.22]tento vektor
+[39.23]tato strana trojúhelníka
+[39.24]tato strana mnohoúhelníka
+[39.25]tento název
+[39.26]tato obálka
+[39.27]tato kuželoseèka
+[39.28]tato elipsa
+[39.29]tato kruhová elipsa
+[39.30]tato hyperbola
+[39.31]tato rovnoosá hyperbola
+[39.32]tato parabola
+[39.33]tato znaèka
+[39.34]tato míra//§
+[39.35]tyto souøadnice
+[39.36]tato osa
+[39.37]tato osa
+[39.38]tato jednotka
+[40.1]Leží v pøímce.
+[40.2]Neleží v pøímce.
+[41.1]Jsou rovnobìžné.
+[41.2]Nejsou rovnobìžné.
+[42.1]Jsou kolmé.
+[42.2]Nejsou kolmé.
+[43.1]Jsou stejnì vzdálené.
+[43.2]Nejsou stejnì vzdálené.
+[44.1]Leží na objektu.
+[44.2]Neleží na objektu.
+[45.1]Je tato pøímka rovnobìžná
+[45.2]Je tato polopøímka rovnobìžná
+[45.3]Je tato osa rovnobìžná
+[45.4]Je tato úseèka rovnobìžná
+[45.5]Je tento vektor rovnobìžný
+[45.6]Je tato strana trojúhelníka rovnobìžná
+[45.7]Je tato strana mnohoúhelníka rovnobìžná
+[45.8]s touto pøímkou?
+[45.9]s touto polopøímkou?
+[45.10]s touto osou?
+[45.11]s touto úseèkou?
+[45.12]s tímto vektorem?
+[45.13]s touto stranou trojúhelníka?
+[45.14]s touto stranou mnohoúhelníka?
+[46.1]Je tato pøímka kolmá
+[46.2]Je tato polopøímka kolmá
+[46.3]Je tato osa kolmá
+[46.4]Je tato úseèka kolmá
+[46.5]Je tento vektor kolmý
+[46.6]Je tato strana trojúhelníka kolmá
+[46.7]Je tato strana mnohoúhelníka kolmá
+[46.8]na tuto pøímku?
+[46.9]na tuto polopøímku?
+[46.10]na tuto osu?
+[46.11]na tuto úseèku?
+[46.12]na tento vektor?
+[46.13]na tuto stranu trojúhelníka?
+[46.14]na tuto stranu mnohoúhelníka?
+[47], ;//desetinná èárka - oddìlovaè trojic øádù - oddìlovaè položek
+[48]r
+[49]t
+[50]Neexistuje jednoduchá polární rovnice.
+[51]nevlastní pøímka 
+[52]nevlastní pøímka (dvojitá)
+[53]Objekt vytvoøený makrokonstrukcí nelze pøedefinovat.
+[54]Nelze pøedefinovat.
+[55]Nelze definovat makrokonstrukci bez vstupních objektù.
+[56]Nelze definovat makrokonstrukci bez výstupních objektù.
+[57]V makrokonstrukci nelze objekt zadat zároveò jako vstupní i výstupní.
+[58]Zadané výstupní objekty makrokonstrukce nejsou urèeny vstupními objekty.
+[59]Text nemùže být vstupním ani výstupním objektem makrokonstrukce.
+[60]kon //
+[61]K této makrokonstrukci není nápovìda.
+[62]Konstrukce s tímto názvem již existuje.\rZvolte jiný název.
+[63]Ponechat obrázek v tomto tvaru?
+[64]obr //
+[65]nab //
+[66.1]Nedostatek pamìti pro uložení obrázku.
+[66.2]Nedostatek pamìti pro naètení souboru.
+[67.1]Soubor //
+[67.2] nemá formát Cabri II.
+[68]Soubor nelze otevøít.
+[69]Soubor nelze vytvoøit.
+[70]Soubor nelze uložit.
+[71.1]Uložit //
+[71.2] pøed jeho zavøením?
+[72]Zrušit provedené zmìny?
+[73]výsledek: //
+[74]není definován
+[75]neexistuje
+[76]jednotka
+[77]Neoèekávaný znak v //
+[78]Neoèekávaný znak //
+[79]Chyba ve vyèíslovaném výrazu.
+[80]Nesluèitelné jednotky.
+[81]Dìlení nulou.
+[82]Mimo definièní obor.
+[83]Argument > 1.
+[84]Argument < 1.
+[85]Záporná hodnota umocnìná na neceloèíselný exponent.
+[86]Nedefinovaná mocnina.
+[87]a bude vyhodnoceno jako nula//§
+[88]a bude vyhodnoceno jako jedna//§
+[89]Nelze provést//§
+[90]Nestejnorodé jednotky.
+[91]\rPøevést stupnì na radiány?
+[92]Výsledek nelze vyjádøit v jednotkách velikosti úhlu.
+[93]\r(Velikost úhlu bude vyjádøena v radiánech.)
+[94]Nesluèitelné jednotky.
+[95]Ignorovat?
+[96]Nepøípustné jednotky.
+[97]Nepøípustné jednotky.
+[98]Nepøípustné jednotky ve funkci //
+[99].
+[100]Odeètení velmi velkých hodnot nedá vìrohodný výsledek.//§
+[101]Seètení velmi vysokých hodnot s opaènými znaménky nedá vìrohodný výsledek.//§
+[102]Chybí pravé závorky.
+[103]Má je Cabri doplnit?
+[104]Pøebývají pravé závorky.
+[105]Nedostatek pamìti pro provedení kroku zpìt.
+[106]Nedostatek pamìti pro kopírování tìchto objektù.
+[107]Nedostatek pamìti pro bìh programu.
+[108]demonstraèní verze neumožòuje.
+[109]Demonstraèní verze pobìží jen 15 minut.\rNení urèena k výuce ani k prodeji.\rPlnì funkèní verzi si mùžete koupit.
+[110]Demonstrace skonèila. \rMùžete si ji spustit znovu, \rnebo si koupit plnì funkèní verzi.
+[111]OK
+[112]Ne
+[113]Zrušit
+[114] a //§
+[115]Smazat//§
+[116]Zjištìna chyba.\r
+[117]syntaktická chyba//§
+[118]Nápovìda//§
+
+[119]Klepnutím na objekt ho oznaèíme k další operaci. Oznaèení více objektù umožòuje klávesa Shift nebo jejich zarámování (tahem myši). Táhnutím za volný objekt ho pøemístíme.
+[120]Táhnutím za objekt jím otáèíme kolem pøedem oznaèeného støedu. Nebyl-li støed oznaèen, otáèíme kolem tìžištì objektu.
+[121]Táhnutím za objekt ho roztahujeme (smršujeme) ve stejnolehlosti s pøedem oznaèeným støedem. Nebyl-li støed oznaèen, je støed v tìžišti.
+[122]Souèasné otáèení a roztahování (smršování) objektu.
+[123]Klepnutím vytvoøíme volný bod, bod na objektu nebo v prùseèíku dvou objektù.
+[124]Klepnutím vytvoøíme bod na objektu.
+[125]Klepnutím na dva objekty vytvoøíme jejich prùseèíky.
+[126]Vytvoøení pøímky dané bodem a smìrem nebo dvìma body.
+[127]Vytvoøení úseèky ze dvou krajních bodù.
+[128]Vytvoøení polopøímky dané poèáteèním bodem a smìrem nebo bodem.
+[129]Vytvoøení vektoru (orientované úseèky) z poèáteèního a koncového bodu.
+[130]Vytvoøení trojúhelníka ze tøí vrcholù.
+[131]Vytvoøení mnohoúhelníka z jeho vrcholù. Zadávání ukonèíme poklepáním na posledním vrcholu nebo klepnutím na první vrchol.
+[132]Vytvoøení pravidelného mnohoúhelníka. Nejprve klepneme na jeho støed a vrchol, táhnutím po obvodu pak urèíme poèet stran (do 30) a konvexitu nebo hvìzdicovost.
+[133]Vytvoøení kružnice dané støedem a bodem.
+[134]Vytvoøení oblouku daného poèáteèním bodem, vnitøním bodem a koncovým bodem.
+[135]Vytvoøení kuželoseèky (elipsy, paraboly, hyperboly, pøímky nebo dvojice pøímek) dané pìti body.
+[136]Vytvoøení kolmice z bodu k pøímce, úseèce, polopøímce, vektoru, ose nebo stranì mnohoúhelníka.
+[137]Vytvoøení rovnobìžky bodem s pøímkou, úseèkou, polopøímkou, vektorem, osou nebo stranou mnohoúhelníka.
+[138]Vytvoøení støedu úseèky, vektoru, strany mnohoúhelníka nebo dvojice bodù.
+[139]Vytvoøení osy úseèky, vektoru, strany mnohoúhelníka nebo dvojice bodù.
+[140]Vytvoøení osy úhlu urèeného tøemi body.
+[141]Vytvoøení souètu dvou vektorù umístìného v daném bodì.
+[142]Vytvoøení kružnice z polomìru daného úseèkou nebo dvojicí bodù a ze støedu.
+[143]Nanesení dané délky od daného bodu daným smìrem, na vektor (od poèáteèního bodu), na polopøímku (od poèáteèního bodu), na osu (od poèátku v kladném smìru), na obvod mnohoúhelníka (od prvního vrcholu ve smìru jeho vytvoøení) nebo na kružnici (od daného bodu proti smìru hod. ruè.). Nejprve oznaèíme èíslo, pak objekt a v pøípadì kružnice i poèáteèní bod.
+[144]Vytvoøení množiny objektù definované pohybem bodu po urèité dráze. Nejprve oznaèíme objekt (bod, pøímku, polopøímku, kružnici), z jehož exempláøù se bude skládat vykreslená množina, pak bod, jehož pohyb bude tuto množinu generovat. V menu Nastavení prostøedí mùžeme stanovit poèet vykreslených prvkù množiny. Pro pøípad množiny složené z bodù zde mùžeme urèit, budou-li spojeny køivkou, a pro pøípad množiny složené z pøímek, budou-li se vykreslovat pøímky nebo jejich obálka.
+[145]Pøedefinování závislostí objektu na ostatních objektech, jak vznikaly bìhem jeho konstrukce. Klepneme na objekt a vybereme z pøedložené nabídky nové zaøazení objektu. 
+[146]Vytvoøení obrazu objektu v posunutí o daný vektor.
+[147]Vytvoøení obrazu objektu v otoèení kolem daného støedu o úhel daný èíselnou hodnotou.
+[148]Vytvoøení obrazu objektu ve stejnolehlosti dané støedem a èíselným koeficientem.
+[149]Vytvoøení obrazu objektu v osové soumìrnosti podle dané pøímky, úseèky, polopøímky, vektoru, osy nebo strany mnohoúhelníka .
+[150]Vytvoøení obrazu objektu ve støedové soumìrnosti dané støedem.
+[151]Vytvoøení obrazu bodu v kruhové inverzi dané kružnicí.
+[152]Postupnì klepneme na vstupní objekty provedené konstrukce.
+[153]Postupnì klepneme na výstupní objekty provedené konstrukce, které jsou urèeny vstupními objekty.
+[154]Otevøení okna pro pojmenování makrokonstrukce, vložení nápovìdy (nepovinné), nestandardního hlášení pro první výstupní objekt (nepovinné) a uložení makrokonstrukce.
+[155]Zjištìní, zda tøi body leží v pøímce.
+[156]Zjištìní, zda dva lineární objekty (pøímka, polopøímka, úseèka, vektor, osa, strana mnohoúhelníka) jsou rovnobìžné.
+[157]Zjištìní, zda dva lineární objekty (pøímka, polopøímka, úseèka, vektor, osa, strana mnohoúhelníka) jsou kolmé.
+[158]Zjištìní, zda je bod stejnì vzdálen od dvou dalších bodù.
+[159]Zjištìní, zda bod leží na daném objektu.
+[160]Zmìøení vzdálenosti bodu od bodu, pøímky, osy a kružnice, velikosti úseèky a vektoru, délky kružnice, oblouku a elipsy, obvodu mnohoúhelníka.
+[161]Zmìøení obsahu mnohoúhelníka, kruhu a elipsy.
+[162]Zmìøení velikosti úhlu daného tøemi body.
+[163]Urèení smìrnice pøímky, úseèky, polopøímky a vektoru.
+[164]Zjištìní souøadnic bodu a rovnice pøímky, kružnice a kuželoseèky. Souøadnou soustavu a tvar rovnic nastavujeme v nabídce Nastavení prostøedí.
+[165]Vyèíslení výrazu, který mùžeme tvoøit z èíselných hodnot vkládaných z klávesnice nebo z nákresny (klepnutím). Výsledek lze vytáhnout na nákresnu. Poklepáním na výsledek umístìný na nákresnì obnovíme výraz na displeji kalkulaèky.
+[166]Tabelace hodnot umístìných na nákresnì. Klepnutím vytvoøíme tabulku, jejíž rozmìry lze upravovat táhnutím za pravý dolní roh. Šíøku sloupcù lze upravit táhnutím za jejich pravý horní roh. Pak klepneme na velièiny, jejichž hodnoty budeme tabelovat ve sloupcích. Pøi modifikacích obrázku pak klávesou Tab ukládáme aktuální hodnoty do øádkù tabulky. Øádek nebo sloupec lze vymazat poklepáním na jeho zaèátek a klávesou Del. K automatické tabelaci lze využít funkce Pohyb objektu a Pohyb více objektù.
+[167]Pøipojení názvu k bodu, pøímce nebo kružnici a jeho úpravy.
+[168]Vložení textu z klávesnice na nákresnu a jeho úpravy.
+[169]Vložení èísla z klávesnice na nákresnu a jeho úpravy. CtrlU umožòuje doplnit jednotky.
+[170]Vyznaèení úhlu daného tøemi body.
+[171]Upevnìní volného bodu. Uvolnìní upevnìného bodu.
+[172]Klepnutím oznaèíme objekty, které pak pøi svém pohybu budou zanechávat stopu. Dalším klepnutím na oznaèený objekt tuto jeho vlastnost zrušíme. Stopy vymažeme volbou položky Pøekreslit z nabídky Upravit.
+[173]Automatický pohyb objektu. Ukážeme na objekt a tahem myši natáhneme pružinu. Objekt se pak dá do pohybu opaèným smìrem rychlostí odpovídající délce pružiny. Objekt se pohybuje stejným zpùsobem, jako bychom ho táhli po nákresnì. Pohyb lze zastavit klepnutím nebo Esc. Je-li v prvním okénku panelu nástrojù symbol stejnolehlosti, otáèení nebo obou pohybù, objekt se pohybuje a mìní pøíslušným zpùsobem. Pøi pohybu mùže objekt nebo objekty na nìm závislé zanechávat stopu nebo lze mìøit a tabelovat prùbìžné hodnoty. Pohyb zastavíme klepnutím nebo Esc. Takto lze pohybovat i èísly, tj. mìnit jejich hodnotu.
+[174]Pohyb více objektù souèasnì po rùzných drahách podobnì jako u položky Pohyb objektu. Startuje se klávesou Enter.
+[175]Klepnutím na viditelný objekt ho zneviditelníme a obrácenì. Neviditelné objekty se zde ukazují jako èárkované.
+[176]Zmìna tloušky èáry.
+[177]Zmìna typu èáry.
+[178]Zmìna vyznaèení objektu.
+[179]Zmìna barvy objektu.
+[180]Vybarvení nebo zmìna barvy kruhù, mnohoúhelníkù, tabulek a polí s texty, èísly a rovnicemi.
+[181]Zobrazení os souøadnic. Skrytí os.
+[182]Vytvoøení další soustavy souøadnic dané poèátkem, bodem na ose x a bodem na ose y.
+[183]Zobrazení møížových bodù do soustavy souøadnic dosáhneme klepnutím na osu.
+
+[184]Heslo nesouhlasí. Vložte správné heslo.
+[185.1](první zkonstruovaný objekt)
+[185.2](poslední zkonstruovaný objekt)
+[186]žádný jiný objekt//§
+[187]Funkce Zpìt je vypnuta.
+[188]Smazat oznaèený objekt?
+[189]Pøedefinovat?
+[190]Ukazovátko
+[191]Otáèení
+[192]Natahování
+[193]Otáèení a natahování
+[194]Pohyb objektu
+[195]Pohyb více objektù
+[196]Stopu ano / ne
+[197]Upevnit / Uvolnit
+[198]Bod
+[199]Bod na objektu
+[200]Prùseèíky
+[201]Pøímka
+[202]Úseèka
+[203]Polopøímka
+[204]Vektor
+[205]Trojúhelník
+[206]Mnohoúhelník
+[207.1]Pravidelný mnohoúhelník
+[207.2]Vrchol pravidelného mnohoúhelníka
+[208]Kružnice
+[209]Oblouk
+[210]Kuželoseèka
+[211]Kolmice
+[212]Rovnobìžka
+[213]Støed úseèky
+[214]Osa úseèky
+[215]Osa úhlu
+[216]Souèet vektorù
+[217]Kružítko
+[218]Nanést délku
+[219]Množina objektù
+[220]Pøedefinovat objekt
+[221]Posunutí
+[222]Osová soumìrnost
+[223]Støedová soumìrnost
+[224]Otoèení
+[225]Stejnolehlost
+[226]Kruhová inverze
+[227]Vstupní objekty
+[228]Výstupní objekty
+[229]Název, nápovìda
+[230]V pøímce?
+[231]Rovnobìžnì?
+[232]Kolmo?
+[233]Stejnì vzdálen?
+[234]Na objektu?
+[235]Vzdálenost a délka
+[236]Obsah
+[237]Smìrnice
+[238]Úhel
+[239]Souøadnice a rovnice
+[240]Výpoèty
+[241]Tabulky
+[242]Názvy
+[243]Texty
+[244]Èísla
+[245]Vyznaèit úhel
+[246]Zobrazit / Skrýt
+[247]Tlouška èáry
+[248]Typ èáry
+[249]Typ znaèky
+[250]Obarvit
+[251]Vybarvit
+[252]Zobrazit osy
+[253]Nové osy
+[254]Møížové body
+[255]Zobrazit osy
+[256]Skrýt osy
+[257]Ztotožnit s jiným objektem
+[258.1]&Soubory
+[258.2]&Nový obrázek
+[258.3]&Otevøít...
+[258.4]&Zavøít obrázek
+[258.5]&Uložit
+[258.6]Uložit &jako...
+[258.7]&Pùvodní obrázek...
+[258.8]U&místit obrazovku...
+[258.9]Nastavit &stránku...
+[258.10]&Tisk...
+[258.11]&Konec
+[259.1]&Upravit
+[259.2]&Zpìt
+[259.3]Vy&jmout
+[259.4]&Kopírovat
+[259.5]&Vložit
+[259.6]&Smazat
+[259.7]&Oznaèit vše
+[259.8]&Historie
+[259.9]&Pøekreslit
+[260.1]&Nastavit
+[260.2]&Zobrazit panel grafiky
+[260.3]Nastavit &prostøedí...
+[260.4]&Upravit nabídky...
+[260.5]&Jazyk...
+[260.6]Pís&mo...
+[261.1]&Okna
+[261.2]&Kaskáda
+[261.3]Dlaždice &vodorovnì
+[261.4]Dlaždice &svisle
+[261.5]&Zavøít vše
+[262.1]&Ná&povìda
+[262.2]Ná&povìdu ano/ne
+[262.3]&O programu Cabri II
+[263.1]&Zobrazit panel grafiky
+[263.2]&Skrýt panel grafiky
+[264.1]Z&novu
+[264.2]&Zpìt
+[265]Systémový font//§
+[266]&Zavøít
+[267]Standardní nastavení
+[268]Uložit do souboru
+[269]Uložit do souboru a
+[270]Použít pro
+[271]nové objekty
+[272]oznaèené objekty
+[273]&Uložit jako implicitní
+[274]Zvolit ikonu
+[275]Vytisknout vymezenou èást nákresny.
+[276]Umístìní obrazovky
+[277.1]
+[277.2]kamkoliv \r v nákresnì velikosti 1 m x 1 m.
+[277.3]Stránku mùžete umístit
+[277.4]Obrazovku mùžete umístit
+[278]Tisk spustí [Enter].
+[279]Historie konstrukce
+[280]Heslo
+[281]Zadejte heslo pro pøístup k nastavení prostøedí.
+[282]Úprava nabídek
+[283]Heslo (není nutné)\r(nanejvýš 8 znakù):
+[284]Vybrané položky odstraòujte nebo pøemísujte.
+[285]Nastavení prostøedí
+[286]Zaokrouhlování a jednotky
+[287]desetinná místa:
+[288]jednotky:
+[289.1]délka
+[289.2]0
+[289.3]1
+[289.4]2
+[289.5]3
+[289.6]4
+[289.7]maximum
+[290.1]úhel
+[290.2]0
+[290.3]1
+[290.4]2
+[290.5]3
+[290.6]4
+[290.7]maximum
+[291.1]ostatní
+[291.2]0
+[291.3]1
+[291.4]2
+[291.5]3
+[291.6]4
+[291.7]maximum
+[292.1]milimetr (mm)
+[292.2]centimetr (cm)
+[292.3]metr (m)
+[292.4]kilometr (km)
+[292.5]stupeò (°)
+[292.6]grad (grad)
+[292.7]radián (rad)
+[293]Množiny
+[294]poèet vykreslovaných objektù
+[295]u množin bodù:
+[296]spojovat body
+[297]u množin pøímek:
+[298]jen obálky
+[299]Souøadnice a rovnice
+[300.0]soustava souøadnic:
+[300.1]kartézská
+[300.2]polární (°)
+[300.3]polární (grad)
+[300.4]polární (rad)
+[301.0]pøímky
+[301.1]ax+by+c=0
+[301.2]y=ax+b
+[302.0]kružnice
+[302.1]x²+y²+ax+by+c=0
+[302.2](x-a)²+(y-b)²=R² 
+[303.0]kuželoseèky
+[303.1]ax²+bxy+cy²+dx+ey+f=0
+[303.2](x-xo)²/a²±(y-yo)²/b²=1
+[304]Systémové volby
+[305]bitmapovou kopii
+[306]vypnout funkci Zpìt
+[307]pouze systémové barvy
+[308]pøesnost kresby
+[309]písmo u kurzoru:
+[310]písmo nabídek:
+[311]Ostatní volby
+[312]vytváøet body na objektech
+[313]zobrazovat nevlastní objekty
+[314]Implicitní styly
+[315.1]texty
+[315.2]názvy
+[315.3]èísla
+[315.4]jednotky délky
+[315.5]jednotky obsahu
+[315.6]jednotky úhlu
+[315.7]rovnice
+[316.1]body
+[316.2]pøímky
+[316.3]mnohoúhelníky
+[316.4]vektory
+[316.5]kružnice a kuželoseèky
+[316.6]oblouky
+[316.7]osy
+[316.8]møížové body
+[316.9]množiny
+[316.10]znaèky úhlu
+[317.0]Kalkulaèka
+[317.1]=//§
+[317.2]Vyp
+[317.3]Vymazat
+[317.4]inv//§
+[317.5]sin//§
+[317.6]cos//§
+[317.7]tg//§
+[317.8]sqrt//§
+[317.9]^//§
+[317.10]ln//§
+[317.11]log//§
+[317.12]abs//§
+[317.13]pi//§
+[317.14](//§
+[317.15])//§
+[317.16]+//§
+[317.17]-//§
+[317.18]x//§
+[317.19]://§
+[317.20]=//§
+[318]Makrokonstrukce
+[319]Ikony
+[320]Smazat
+[321]Název konstrukce:
+[322]Hlášení prvního výstupního objektu:
+[323]Nápovìda:
+[324]Rozšíøení nebo pøepsání makrokonstrukce
+[325]&Rozšíøení
+[326]&Pøepsání
+[327]Makrokonstrukce stejného názvu již existuje.\rPøidat nìco k její definici nebo ji celou pøepsat?
+[328]Vytisknout &název souboru
+[329]Vytisknout &datum
+[330]Otevøít soubor
+[331]Uložit soubor jako...
+[332]Uložit nastavení jako...
+[333]Otevøít jazykový soubor
+[334.1]obrázky (*.FIG)
+[334.2]makra (*.MAC)
+[334.3]nabídky (*.MEN)
+[334.4]soubory pro TI-92 (*.92A)
+[334.5]texty (*.TXT)
+[334.6]nastavení (*.INI)
+[334.7]jazyky (*.CGL)
+[334.8]všechny soubory (*.*)
+[335.1]Ctrl
+[335.2]Del
+[336]Je otevøeno pøíliš mnoho oken s obrázky.
+[337]Pøíštì spustit opìt èeskou verzi?

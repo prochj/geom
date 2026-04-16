@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1250">
+<meta name="AUTHOR" content="Josef Procházka">
+<meta name="GENERATOR" content="HTML Editor 2.94">
+<title>Shodná zobrazení</title>
+</head>
+<link rel="stylesheet" href="vyklad.css" type="text/css">
+<script language="JavaScript">
+var soubor="shodnost.htm"
+var krok=0
+function krokuj() {
+if (krok>6) krok=0
+nazev='../gif/ss'+krok+'.gif'
+document.images.platno.src=nazev
+krok++
+}
+
+function spust(){
+video='../gif/stredov.gif'
+document.images['platno'].src=video
+}
+
+</script>
+<body bgcolor="#FFFFF0">
+
+<CENTER><TABLE BORDER=0 CELLSPACING=10>
+<TR><TD><IMG SRC="../gif/ss6.gif" NAME="platno" BORDER="2"> 
+<TD ALIGN="Center">
+<A HREF="#sem" ONCLICK="spust()" ONMOUSEMOVE="window.status='Spustit konstrukci osové soumìrnosti'; return true;" ONMOUSEOUT="window.status=''; return true;" > 
+<IMG SRC="../gif/film.gif" BORDER=0 ALT="Promítnout video" ></A><P>
+<A HREF="#sem" ONCLICK="krokuj()" ONMOUSEMOVE="window.status='Krokovat'; return true;" ONMOUSEOUT="window.status=''; return true;" >
+<IMG SRC="../gif/action.gif" BORDER=0 ALT="Krokovat" VSPACE=20 ></A>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

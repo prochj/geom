@@ -1,0 +1,188 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -0.820208333333333 y: -3.67770833333333 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"V", NP: -200, 175, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.94770833333333 -4.524375
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 3.095625 0
+
+5: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+6: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 5, Val: -4.94770833333333 -0.767291666666667
+
+7: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 6
+
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: -2.03729166666667 -4.524375
+
+9: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 8
+
+10: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9, Val: -2.85395033232809 -2.50281555075355
+
+11: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7 9
+
+12: Arc, 0, CN:3, VN:5
+R, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 10 11
+
+"B", NP: -101, 104, NS: 12, 18
+13: Pt/, 0, CN:1, VN:3
+G, W, t, DS:1 1, GT:2, V, nSt
+Const: 12, Val: -2.81215903832629 -2.54701454166014
+p: 0, System, S: 0 C: 8 Fa: 0
+
+14: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 13
+
+15: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 8 3 13, Val: 1, 2.9
+
+16: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 11 3 13, Val: -1, 2.2
+
+17: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, I, nSt
+Const: 16, Val: -300 -168 0.823841, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+18: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 16 17, Val: -300 -168 1, A, nP, TP: -7.9375, 4.445,TS: 1.13770833333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+19: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, I, nSt
+Const: 15, Val: -303 -149 0.746956, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+20: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 15 19, Val: -303 -149 0, A, nP, TP: -8.016875, 3.94229166666667,TS: 1.13770833333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+21: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, deg, GT:0, I, nSt
+Const: 17 19, Val: -303 -128 1.5708, A, P, TP: -8.016875, 3.38666666666667,TS: 1.349375, -0.47625
+a + b
+p: 0, System, S: 0 C: 15 Fa: 0
+
+22: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 21, Val: -303 -128 0, nA, nP, TP: -8.016875, 3.38666666666667,TS: 1.349375, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"C", NP: -204, 93, NS: 11, 18
+23: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -4.94770833333333 -2.88395833333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: -105, 175, NS: 10, 18
+24: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -2.778125 -4.524375
+p: 0, System, S: 0 C: 3 Fa: 0
+
+25: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -167 -78 0, nA, nP, TP: -4.41854166666667, 2.06375,TS: 4.365625, -1.32291666666667
+"Pohybujte bodem    a sledujte zmìny velikosti úhlù VAB a VBC"
+p: 0, System, S: 13 C: 15 Fa: 60929
+
+26: Text, 0, CN:0, VN:1
+G, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -50 -80 0, nA, nP, TP: -1.32291666666667, 2.11666666666667,TS: 0.3175, -0.47625
+"B"
+p: 0, System, S: 13 C: 8 Fa: 60929
+
+27: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 15, Val: -155 230 0.746956, A, nP
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: AngVal, 0, CN:1, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 16, Val: -102 230 0.823841, A, nP
+p: 0, System, S: 0 C: 15 Fa: 0
+
+29: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 17 19, Val: -49 230 1.5708, A, nP, TP: -1.29645833333333, -6.08541666666667,TS: 1.29645833333333, -0.423333333333333
+a + b
+p: 0, System, S: 0 C: 15 Fa: 0
+
+30: Text, 0, CN:3, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 27 28 29, Val: -155 230 0, nA, nP, TP: -4.10104166666667, -6.08541666666667,TS: 4.15395833333333, -0.47625
+""#+ "#= "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+31: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -155 201 0, nA, nP, TP: -4.10104166666667, -5.318125,TS: 3.38666666666667, -0.47625
+"AVB  + BVC   =  AVC"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+32: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -114 -369 0, nA, nP, TP: -3.01625, 9.763125,TS: 3.413125, -0.767291666666667
+"Støídavé úhly"
+p: 0, Times New Roman, S: 24 C: 5 Fa: 60992
+
+33: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -113 -369 0, nA, nP, TP: -2.98979166666667, 9.763125,TS: 3.413125, -0.767291666666667
+"Støídavé úhly"
+p: 0, Times New Roman, S: 24 C: 5 Fa: 60992
+
+34: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -108 -365 0, nA, nP, TP: -2.8575, 9.65729166666667,TS: 3.413125, -0.767291666666667
+"Støídavé úhly"
+p: 0, Times New Roman, S: 24 C: 5 Fa: 60992
+
+35: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -104 -360 0, nA, nP, TP: -2.75166666666667, 9.525,TS: 3.413125, -0.767291666666667
+"Støídavé úhly"
+p: 0, Times New Roman, S: 24 C: 5 Fa: 60992
+
+36: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -2 -146 0, nA, nP, TP: -0.0529166666666667, 3.86291666666667,TS: 4.70958333333333, -0.873125
+"Doplòkové úhly"
+p: 0, Times New Roman, S: 27 C: 5 Fa: 60992
+

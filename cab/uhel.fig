@@ -1,0 +1,101 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -5.18583333333333 y: 0.555625 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"V", NP: -176, 76, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.23333333333333 -1.87854166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 3.889375 0
+
+5: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 1.24354166666667 0.846666666666667
+
+"A", NP: -42, 76, NS: 10, 18
+6: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -1.16416666666667 -1.87854166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+7: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 6
+
+8: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 1.42899496356802
+
+9: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 7 6
+
+10: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 8
+
+11: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 8
+
+12: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 8
+
+13: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 8
+
+14: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 7
+
+"B", NP: -84, -14, NS: 12, 18
+15: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 7
+p: 0, System, S: 0 C: 3 Fa: 0
+
+16: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 15 3 6
+
+"Nekonvexní úhel", NP: -209, 117, NS: 111, 18
+17: Int, 0, CN:2, VN:1
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 16 8
+p: 0, System, S: 0 C: 9 Fa: 0
+
+18: Arc, 0, CN:3, VN:4
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 17 13
+
+"Konvexní úhel", NP: -39, 25, NS: 95, 18
+19: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 16 7
+p: 0, System, S: 0 C: 3 Fa: 0
+
+20: Arc, 0, CN:3, VN:4
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 19 15
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -256 -90 0, nA, nP, TP: -6.77333333333333, 2.38125,TS: 7.381875, -1.32291666666667
+"Uchopte jednu rameno úhlu a sledujte, jak se mìní velikosti úhlu AVB
+"
+p: 0, System, S: 0 C: 15 Fa: 0
+
